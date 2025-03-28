@@ -1,0 +1,13 @@
+**About the Data**
+
+The raw data for cancer deaths in Multnomah County were accessed through the Multnomah County Health Department in collaboration with Lewis and Clark College's head of Data Initiatives, Jeremy McWilliams, and professor of Biology, Dr.Greta Binford.
+
+The relevant columns of data used were the year of death, the age of the individual with cancer, and the ICD-10 codes associated with the type of cancer.
+
+The ICD-10 codes specific to each type of cancer were generalized to the site of cancer. For example, the ICD-10 code for "malignant neoplasm of ascending colon" was generalized to "colon."
+
+The data was aggregated by age groups, as determined by TidyCensus, sex, year of death, and the site of cancer.
+
+To conduct representative research of cancer deaths in Multnomah County, cancer deaths were calculated as a proportion of deaths by population.
+
+**Data Visualizations**

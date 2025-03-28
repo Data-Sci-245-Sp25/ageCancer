@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "My Analytics Project"
+  title: "Multnomah Cancer Deaths By Age"
   search: false
   sidebar:
     style: "docked"
@@ -12,10 +12,18 @@ website:
         text: Home
       - href: abstract.qmd #person B
         text: Abstract
+      - href: titlePage.qmd #Dianara
+        text: Title Page
+      - href: backgroundAndAim.qmd #Dianara
+        text: Background Information/Aim of Research
+      - href: methods.qmd #Dianara
+        text: Methods
+      - href: sources.qmd #Dianara AND Alaniya
+        text: Works Cited
 
 format:
   html:
-    theme: cosmo
+    theme: cosmos
     css: style.css
     toc: true
     code-fold: true
