@@ -1,3 +1,17 @@
-# Preliminary title: Top three cancer rates are prominent in older age groups
+---
+title: "Top Three Cancers in Multnomah County According to Age Group"
+format:
+  html:
+    theme: cosmo
+    page-layout: full
+---
 
-Dianara Sagastizado and Alaniya Aslam
+::: {.lead}
+This research project sought to examine the trends in the top three fatal cancers among different age groups from 2014-2023 in Multnomah County, Portland, Oregon.
+:::
+
+---
+
+## About This Site
+
+This website was created by Dianara Sagastizado and Alaniya Aslam as a project for Lewis and Clark College's DSCI 245 Applied Data Science in collaboration with the Multnomah County Health Department.

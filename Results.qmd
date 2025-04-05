@@ -1,0 +1,197 @@
+---
+title: "Results"
+editor: visual
+---
+
+```{r}
+#installing relevant packages
+#install.packages("tidycensus")
+#install.packages("tidyverse")
+#install.packages("sf")
+
+#load libraries
+library(tidycensus)
+library(tidyverse)
+library(sf)
+library(scales)
+
+```
+
+```{r}
+#set API key
+
+```
+
+```{r}
+#query the following variables
+mc2023 <- get_acs(
+  geography = "county",
+  variables = c(
+    male0to5 = "B01001A_003",
+    male5to9 = "B01001A_004",
+    male10to14 = "B01001A_005",
+    male15to17 = "B01001A_006",
+    male18to19 = "B01001A_007",
+    male20to24 = "B01001A_008",
+    male25to29 = "B01001A_009",
+    male30to34 = "B01001A_010",
+    male35to44 = "B01001A_011",
+    male45to54 = "B01001A_012",
+    male55to64 = "B01001A_013",
+    male65to74 = "B01001A_014",
+    male75to84 = "B01001A_015",
+    male85over = "B01001A_016",
+    
+    female0to5 = "B01001A_018",
+    female5to9 = "B01001A_019",
+    female10to14 = "B01001A_020",
+    female15to17 = "B01001A_021",
+    female18to19 = "B01001A_022",
+    female20to24 = "B01001A_023",
+    female25to29 = "B01001A_024",
+    female30to34 = "B01001A_025",
+    female35to44 = "B01001A_026",
+    female45to54 = "B01001A_027",
+    female55to64 = "B01001A_028",
+    female65to74 = "B01001A_029",
+    female75to84 = "B01001A_030",
+    female85over = "B01001A_031"
+  ),
+  state = "OR",
+  county = "Multnomah",
+  year = 2023,
+  survey = "acs5",
+  geometry = TRUE
+)
+
+```
+
+```{r}
+# Define the years you want to analyze
+years <- 2014:2023 # Adjust as needed
+
+# Create empty lists to store results
+pop_data_list <- list()
+
+# Loop through years to get population data
+for (year in years) {
+  pop_data_list[[as.character(year)]] <- get_acs(
+    geography = "county",
+    variables = c(
+    male0to5 = "B01001A_003",
+    male5to9 = "B01001A_004",
+    male10to14 = "B01001A_005",
+    male15to17 = "B01001A_006",
+    male18to19 = "B01001A_007",
+    male20to24 = "B01001A_008",
+    male25to29 = "B01001A_009",
+    male30to34 = "B01001A_010",
+    male35to44 = "B01001A_011",
+    male45to54 = "B01001A_012",
+    male55to64 = "B01001A_013",
+    male65to74 = "B01001A_014",
+    male75to84 = "B01001A_015",
+    male85over = "B01001A_016",
+    
+    female0to5 = "B01001A_018",
+    female5to9 = "B01001A_019",
+    female10to14 = "B01001A_020",
+    female15to17 = "B01001A_021",
+    female18to19 = "B01001A_022",
+    female20to24 = "B01001A_023",
+    female25to29 = "B01001A_024",
+    female30to34 = "B01001A_025",
+    female35to44 = "B01001A_026",
+    female45to54 = "B01001A_027",
+    female55to64 = "B01001A_028",
+    female65to74 = "B01001A_029",
+    female75to84 = "B01001A_030",
+    female85over = "B01001A_031"
+  ),
+    state = "OR",
+    county = "Multnomah",
+    year = year,
+    survey = "acs5",
+    geometry = TRUE
+  ) |>
+    mutate(year = year) # Add year column for easier joining later
+}
+
+```
+
+```{r}
+# Combine all years
+pop_data_all_years <- bind_rows(pop_data_list)
+
+# Reshape to get both estimates and MOEs
+pop_data_wide <- pop_data_all_years %>%
+  select(year, variable, estimate, moe) %>%
+  pivot_wider(
+    names_from = variable, 
+    values_from = c(estimate, moe)
+  )
+```
+
+```{r}
+cancer_rates <- cancerData %>%
+  left_join(pop_data_all_years, by = c("ddodyear" = "year", "sex_age_combined" = "variable")) %>%
+  mutate(
+    # Use the appropriate population estimate for each age group
+    population = estimate,  # Adjust if needed based on column name in popData.csv
+    population_moe = moe,   # Adjust if needed
+
+    # Calculate rate per 100,000
+    rate_per_100k = (n / population) * 100000,
+    
+    # Propagate MOE for rate calculation
+    rate_moe = rate_per_100k * sqrt((population_moe / population)^2)
+  )
+```
+
+```{r}
+filteredCancer <- cancerData %>%
+  filter(diseaseSite == "Lung" | diseaseSite == "Liver" | diseaseSite == "Pancreas" | diseaseSite == "Prostate" | diseaseSite == "Breast" | diseaseSite == "Colon")
+```
+
+```{r}
+filtered_cancer_rates <- filteredCancer %>%
+  left_join(pop_data_all_years, by = c("ddodyear" = "year", "sex_age_combined" = "variable")) %>%
+  mutate(
+    # Use the appropriate population estimate for each age group
+    population = estimate,  # Adjust if needed based on column name in popData.csv
+    population_moe = moe,   # Adjust if needed
+
+    # Calculate rate per 100,000
+    rate_per_100k = (n / population) * 100000,
+    
+    # Propagate MOE for rate calculation
+    rate_moe = rate_per_100k * sqrt((population_moe / population)^2)
+  )
+```
+
+```{r}
+# Summarize total cases per age group and cancer type
+cancer_summary <- filteredCancer %>%
+  group_by(ageRanges, diseaseSite) %>%
+  summarize(total_cases = sum(n, na.rm = TRUE))
+
+# Plot
+ggplot(cancer_summary, aes(x = ageRanges, y = total_cases, fill = diseaseSite)) +
+  geom_bar(stat = "identity") +
+  labs(title = "Cancer Cases by Age Group and Type",
+       x = "Age Group", y = "Total Cases") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+```
+
+```{r}
+ggplot(timelineCancer45to54, mapping = aes(x = ddodyear, y = rate_per_100k, color = ddsex)) +
+  geom_line() +
+  geom_errorbar(aes(ymin = rate_per_100k - rate_moe, ymax = rate_per_100k + rate_moe))+
+  labs(title = "Number of cancer cases by sex and age group over ten years", 
+       x = "Year", 
+       y = "Rate of cancer (per 100k)")
+```
+
+

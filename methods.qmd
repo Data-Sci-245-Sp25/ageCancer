@@ -1,13 +1,55 @@
 **About the Data**
 
-The raw data for cancer deaths in Multnomah County were accessed through the Multnomah County Health Department in collaboration with Lewis and Clark College's head of Data Initiatives, Jeremy McWilliams, and professor of Biology, Dr.Greta Binford.
+The raw data for all deaths in Multnomah County, Portland, Oregon were accessed through the Multnomah County Health Department in collaboration with Lewis and Clark College's head of Data Initiatives, Jeremy McWilliams, and professor of Biology, Dr.Greta Binford.
+
+We filtered for cancer-related primary causes of death, according to codes of  the tenth revision of the International Classification of Diseases (ICD-10). Further, we limited our data to the ten-year range of 2014-2023.
 
 The relevant columns of data used were the year of death, the age of the individual with cancer, and the ICD-10 codes associated with the type of cancer.
 
 The ICD-10 codes specific to each type of cancer were generalized to the site of cancer. For example, the ICD-10 code for "malignant neoplasm of ascending colon" was generalized to "colon."
 
-The data was aggregated by age groups, as determined by TidyCensus, sex, year of death, and the site of cancer.
+The data was aggregated by age groups (as determined by TidyCensus), sex, year of death, and the site of cancer.
 
-To conduct representative research of cancer deaths in Multnomah County, cancer deaths were calculated as a proportion of deaths by population.
+To conduct representative research of cancer deaths in Multnomah County, cancer deaths were calculated as a proportion of deaths by population, using TidyCensus data.
 
-**Data Visualizations**
+**Raw Data Visualization**
+
+```{r}
+#| message: False 
+
+#installing packages
+install.packages("tidyverse") 
+library(tidyverse) 
+```
+
+```{r}
+#| message: False 
+
+#reading data
+cancerData <- read_csv("./data/ageCancer.csv")
+```
+
+```{r}
+#| label: raw_data_histogram
+#| message: False 
+#| fig-cap: "A histogram of the distribution of cancer deaths from 2014-2023 by age group in Multnomah County."
+# define age ranges
+
+age_levels <- c("0-5", "6-9", "10-14", "15-17", "18-19", 
+                "20-24", "25-29", "30-34", "35-44", "45-54", 
+                "55-64", "65-74", "75-84", "85over")
+
+# change ageRanges to a factor, so that they appear in numerical order
+cancerData$ageRanges <- factor(cancerData$ageRanges, levels = age_levels)
+
+#histogram of raw cancer count by age
+age_data <- cancerData %>% 
+  group_by(ageRanges) %>% 
+  summarise(total_cases = sum(n)) 
+
+ggplot(age_data, aes(x = ageRanges, y = total_cases)) + 
+  geom_bar(stat = "identity", fill = "steelblue", color = "black") + 
+  labs(title = "Cancer Case Frequency by Age Range", x = "Age Range", y = "Total Number of Cases") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) 
+```

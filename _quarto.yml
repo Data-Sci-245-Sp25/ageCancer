@@ -8,8 +8,8 @@ website:
   sidebar:
     style: "docked"
     contents:
-      - href: index.qmd #person A
-        text: Home
+      - href: titlePage.qmd #Dianara
+        text: Index
       - href: abstract.qmd #person B
         text: Abstract
       - href: titlePage.qmd #Dianara
@@ -18,6 +18,10 @@ website:
         text: Background Information/Aim of Research
       - href: methods.qmd #Dianara
         text: Methods
+      - href: Results.qmd #Dianara AND Alaniya
+        text: Results
+      - href: conclusion.qmd #Dianara AND Alaniya
+        text: Conslusion
       - href: sources.qmd #Dianara AND Alaniya
         text: Works Cited
 
