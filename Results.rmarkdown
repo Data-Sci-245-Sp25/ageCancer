@@ -29,7 +29,7 @@ cancerData <- read_csv("./data/ageCancer.csv")
 #| message: False 
 
 #set API key
-apiKey="__"
+apiKey="36533479b6c6b95d160d971ad613a67ca807b773"
 census_api_key(apiKey, install = TRUE, overwrite=TRUE)
 
 readRenviron("~/.Renviron")
@@ -278,10 +278,4 @@ ggplot(timelineCancerOver85, mapping = aes(x = ddodyear, y = rate_per_100k, colo
        x = "Year", 
        y = "Rate of cancer death(per 100k)")
 ```
-
-
-
-
-
-
 
