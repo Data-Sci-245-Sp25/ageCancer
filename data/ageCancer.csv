@@ -1,712 +1,712 @@
-diseaseSite,ageClassification,ddodyear,ddsex,ageRanges,n
-Myeloid and Monocytic Leukemia,adolescent,2014,M,15-17,1
-Brain and Nervous System,adolescent,2015,F,10-14,1
-Non-Hodgkin Lymphoma,adolescent,2015,M,15-17,1
-Brain and Nervous System,adolescent,2017,F,15-17,1
-"Lip, Oral Cavity and Pharynx",adolescent,2017,F,18-19,1
-Unspecified Cancer,adolescent,2019,M,15-17,1
-"Leukemia, other",adolescent,2021,M,15-17,1
-Myeloid and Monocytic Leukemia,adolescent,2022,F,10-14,1
-Myeloid and Monocytic Leukemia,adolescent,2022,F,15-17,1
-Bones and Joints,adolescent,2023,F,15-17,1
-Lymphoid Leukemia,adolescent,2023,M,18-19,1
-Breast,aged,2014,F,65-74,18
-Lung,aged,2014,F,65-74,18
-Lymphatic or Blood,aged,2014,F,65-74,8
-Lung,aged,2014,F,75-84,18
-Breast,aged,2014,F,75-84,5
-Pancreas,aged,2014,F,75-84,4
-Lung,aged,2014,M,65-74,26
-Lymphatic or Blood,aged,2014,M,65-74,7
-Pancreas,aged,2014,M,65-74,7
-Prostate,aged,2014,M,65-74,7
-Lung,aged,2014,M,75-84,6
-Other Digestive Organ,aged,2014,M,75-84,4
-Non-Hodgkin Lymphoma,aged,2014,M,75-84,3
-Pancreas,aged,2014,M,75-84,3
-Lung,aged,2015,F,65-74,53
-Breast,aged,2015,F,65-74,24
-Pancreas,aged,2015,F,65-74,12
-Lung,aged,2015,F,75-84,33
-Breast,aged,2015,F,75-84,8
-Other Female Genital,aged,2015,F,75-84,7
-Lung,aged,2015,M,65-74,58
-Pancreas,aged,2015,M,65-74,17
-Colon,aged,2015,M,65-74,15
-Lung,aged,2015,M,75-84,15
-Prostate,aged,2015,M,75-84,11
-Colon,aged,2015,M,75-84,6
-Liver,aged,2015,M,75-84,6
-Lung,aged,2016,F,65-74,34
-Breast,aged,2016,F,65-74,11
-Other Female Genital,aged,2016,F,65-74,10
-Lung,aged,2016,F,75-84,22
-Breast,aged,2016,F,75-84,7
-Pancreas,aged,2016,F,75-84,7
-Lung,aged,2016,M,65-74,35
-Pancreas,aged,2016,M,65-74,18
-Colon,aged,2016,M,65-74,12
-Liver,aged,2016,M,65-74,12
-Prostate,aged,2016,M,65-74,12
-Lung,aged,2016,M,75-84,10
-Prostate,aged,2016,M,75-84,10
-Colon,aged,2016,M,75-84,6
-Lung,aged,2017,F,65-74,38
-Breast,aged,2017,F,65-74,18
-Other Female Genital,aged,2017,F,65-74,15
-Lung,aged,2017,F,75-84,20
-Breast,aged,2017,F,75-84,7
-Pancreas,aged,2017,F,75-84,6
-Lung,aged,2017,M,65-74,40
-Pancreas,aged,2017,M,65-74,13
-Prostate,aged,2017,M,65-74,12
-Lung,aged,2017,M,75-84,12
-Prostate,aged,2017,M,75-84,7
-Colon,aged,2017,M,75-84,5
-Lung,aged,2018,F,65-74,33
-Breast,aged,2018,F,65-74,14
-Pancreas,aged,2018,F,65-74,11
-Lung,aged,2018,F,75-84,26
-Other Female Genital,aged,2018,F,75-84,5
-Breast,aged,2018,F,75-84,4
-Pancreas,aged,2018,F,75-84,4
-Lung,aged,2018,M,65-74,30
-Liver,aged,2018,M,65-74,16
-Pancreas,aged,2018,M,65-74,13
-Prostate,aged,2018,M,65-74,13
-Lung,aged,2018,M,75-84,15
-Colon,aged,2018,M,75-84,8
-Pancreas,aged,2018,M,75-84,5
-Urinary Bladder,aged,2018,M,75-84,5
-Lung,aged,2019,F,65-74,32
-Breast,aged,2019,F,65-74,15
-Lymphatic or Blood,aged,2019,F,65-74,10
-Pancreas,aged,2019,F,65-74,10
-Lung,aged,2019,F,75-84,24
-Breast,aged,2019,F,75-84,10
-Pancreas,aged,2019,F,75-84,8
-Lung,aged,2019,M,65-74,30
-Liver,aged,2019,M,65-74,16
-Pancreas,aged,2019,M,65-74,15
-Lung,aged,2019,M,75-84,17
-Prostate,aged,2019,M,75-84,9
-Other Hematopoietic,aged,2019,M,75-84,6
-Lung,aged,2020,F,65-74,36
-Breast,aged,2020,F,65-74,19
-Pancreas,aged,2020,F,65-74,19
-Lung,aged,2020,F,75-84,23
-Breast,aged,2020,F,75-84,13
-Pancreas,aged,2020,F,75-84,8
-Lung,aged,2020,M,65-74,36
-Liver,aged,2020,M,65-74,15
-Prostate,aged,2020,M,65-74,11
-Lung,aged,2020,M,75-84,16
-Prostate,aged,2020,M,75-84,13
-Colon,aged,2020,M,75-84,8
-Lung,aged,2021,F,65-74,30
-Breast,aged,2021,F,65-74,15
-Pancreas,aged,2021,F,65-74,10
-Lung,aged,2021,F,75-84,18
-Breast,aged,2021,F,75-84,9
-Colon,aged,2021,F,75-84,7
-Pancreas,aged,2021,F,75-84,7
-Lung,aged,2021,M,65-74,31
-Prostate,aged,2021,M,65-74,15
-Colon,aged,2021,M,65-74,11
-Liver,aged,2021,M,65-74,11
-Lymphatic or Blood,aged,2021,M,65-74,11
-Pancreas,aged,2021,M,65-74,11
-Lung,aged,2021,M,75-84,15
-Prostate,aged,2021,M,75-84,9
-Colon,aged,2021,M,75-84,5
-Esophagus,aged,2021,M,75-84,5
-Lung,aged,2022,F,65-74,37
-Pancreas,aged,2022,F,65-74,20
-Breast,aged,2022,F,65-74,17
-Lung,aged,2022,F,75-84,26
-Pancreas,aged,2022,F,75-84,13
-Breast,aged,2022,F,75-84,11
-Lung,aged,2022,M,65-74,33
-Prostate,aged,2022,M,65-74,18
-Liver,aged,2022,M,65-74,16
-Lung,aged,2022,M,75-84,26
-Prostate,aged,2022,M,75-84,17
-Lymphatic or Blood,aged,2022,M,75-84,8
-Lung,aged,2023,F,65-74,24
-Breast,aged,2023,F,65-74,15
-Other Female Genital,aged,2023,F,65-74,9
-Pancreas,aged,2023,F,65-74,9
-Pancreas,aged,2023,F,75-84,10
-Lung,aged,2023,F,75-84,7
-Lymphatic or Blood,aged,2023,F,75-84,7
-Other Digestive Organ,aged,2023,F,75-84,7
-Lung,aged,2023,M,65-74,27
-Pancreas,aged,2023,M,65-74,12
-Liver,aged,2023,M,65-74,11
-Lung,aged,2023,M,75-84,16
-Prostate,aged,2023,M,75-84,10
-Pancreas,aged,2023,M,75-84,7
-Unspecified Cancer,child,2017,F,6-9,1
-Brain and Nervous System,child,2019,M,6-9,1
-Kidney,child,2020,M,6-9,1
-Unspecified Cancer,child,2020,M,6-9,1
-Ill-Defined Sites,child,2022,F,10-14,1
-Bones and Joints,child,2022,M,6-9,1
-Brain and Nervous System,child,2023,M,6-9,1
-Breast,middleAged,2014,F,35-44,3
-Colon,middleAged,2014,F,35-44,1
-Lung,middleAged,2014,F,35-44,1
-"Melanoma, skin",middleAged,2014,F,35-44,1
-Non-Hodgkin Lymphoma,middleAged,2014,F,35-44,1
-Other Female Genital,middleAged,2014,F,35-44,1
-Rectum,middleAged,2014,F,35-44,1
-Soft Tissue,middleAged,2014,F,35-44,1
-Breast,middleAged,2014,F,45-54,2
-Colon,middleAged,2014,F,45-54,2
-Corpus Uteri,middleAged,2014,F,45-54,2
-Kidney,middleAged,2014,F,45-54,2
-Other Female Genital,middleAged,2014,F,45-54,2
-Unspecified Cancer,middleAged,2014,F,45-54,2
-Lung,middleAged,2014,F,55-64,15
-Breast,middleAged,2014,F,55-64,10
-Other Female Genital,middleAged,2014,F,55-64,7
-Lung,middleAged,2014,M,35-44,1
-Lung,middleAged,2014,M,45-54,5
-Brain and Nervous System,middleAged,2014,M,45-54,2
-Colon,middleAged,2014,M,45-54,2
-Stomach,middleAged,2014,M,45-54,2
-Lung,middleAged,2014,M,55-64,11
-Liver,middleAged,2014,M,55-64,9
-Pancreas,middleAged,2014,M,55-64,9
-Brain and Nervous System,middleAged,2015,F,35-44,1
-Hodgkin Lymphoma,middleAged,2015,F,35-44,1
-Lung,middleAged,2015,F,35-44,1
-Other Digestive Organ,middleAged,2015,F,35-44,1
-Other Female Genital,middleAged,2015,F,35-44,1
-Stomach,middleAged,2015,F,35-44,1
-Thyroid,middleAged,2015,F,35-44,1
-Breast,middleAged,2015,F,45-54,12
-Lung,middleAged,2015,F,45-54,5
-Other Female Genital,middleAged,2015,F,45-54,4
-Breast,middleAged,2015,F,55-64,25
-Lung,middleAged,2015,F,55-64,23
-Other Female Genital,middleAged,2015,F,55-64,12
-Brain and Nervous System,middleAged,2015,M,35-44,1
-Lung,middleAged,2015,M,35-44,1
-Lymphoid Leukemia,middleAged,2015,M,35-44,1
-Other Digestive Organ,middleAged,2015,M,35-44,1
-Pancreas,middleAged,2015,M,35-44,1
-Rectum,middleAged,2015,M,35-44,1
-Lung,middleAged,2015,M,45-54,10
-Esophagus,middleAged,2015,M,45-54,4
-Pancreas,middleAged,2015,M,45-54,4
-Stomach,middleAged,2015,M,45-54,4
-Lung,middleAged,2015,M,55-64,32
-Liver,middleAged,2015,M,55-64,17
-"Lip, Oral Cavity and Pharynx",middleAged,2015,M,55-64,9
-Breast,middleAged,2016,F,35-44,3
-Lung,middleAged,2016,F,35-44,2
-Anus,middleAged,2016,F,35-44,1
-Non-Hodgkin Lymphoma,middleAged,2016,F,35-44,1
-Pancreas,middleAged,2016,F,35-44,1
-Breast,middleAged,2016,F,45-54,8
-Lung,middleAged,2016,F,45-54,5
-Cervix,middleAged,2016,F,45-54,4
-Lung,middleAged,2016,F,55-64,26
-Breast,middleAged,2016,F,55-64,8
-Unspecified Cancer,middleAged,2016,F,55-64,7
-Non-Hodgkin Lymphoma,middleAged,2016,M,35-44,1
-Pancreas,middleAged,2016,M,35-44,1
-Stomach,middleAged,2016,M,35-44,1
-Unspecified Cancer,middleAged,2016,M,35-44,1
-Lung,middleAged,2016,M,45-54,7
-Colon,middleAged,2016,M,45-54,5
-Liver,middleAged,2016,M,45-54,4
-Lung,middleAged,2016,M,55-64,31
-Liver,middleAged,2016,M,55-64,19
-Colon,middleAged,2016,M,55-64,8
-Esophagus,middleAged,2016,M,55-64,8
-Breast,middleAged,2017,F,35-44,4
-Brain and Nervous System,middleAged,2017,F,35-44,2
-Esophagus,middleAged,2017,F,35-44,2
-Lung,middleAged,2017,F,45-54,7
-Other Female Genital,middleAged,2017,F,45-54,5
-Breast,middleAged,2017,F,45-54,3
-Cervix,middleAged,2017,F,45-54,3
-Pancreas,middleAged,2017,F,45-54,3
-Lung,middleAged,2017,F,55-64,18
-Breast,middleAged,2017,F,55-64,13
-Pancreas,middleAged,2017,F,55-64,7
-Lymphoid Leukemia,middleAged,2017,M,35-44,2
-Stomach,middleAged,2017,M,35-44,2
-Colon,middleAged,2017,M,35-44,1
-Liver,middleAged,2017,M,35-44,1
-Lung,middleAged,2017,M,35-44,1
-Non-Hodgkin Lymphoma,middleAged,2017,M,35-44,1
-Unspecified Cancer,middleAged,2017,M,35-44,1
-Pancreas,middleAged,2017,M,45-54,5
-Lung,middleAged,2017,M,45-54,4
-Other Digestive Organ,middleAged,2017,M,45-54,4
-Lung,middleAged,2017,M,55-64,28
-Liver,middleAged,2017,M,55-64,13
-Pancreas,middleAged,2017,M,55-64,9
-Breast,middleAged,2018,F,35-44,1
-Breast,middleAged,2018,F,45-54,11
-Lung,middleAged,2018,F,45-54,6
-Colon,middleAged,2018,F,45-54,5
-Lung,middleAged,2018,F,55-64,20
-Breast,middleAged,2018,F,55-64,11
-Other Female Genital,middleAged,2018,F,55-64,11
-Brain and Nervous System,middleAged,2018,M,35-44,2
-Colon,middleAged,2018,M,35-44,1
-"Lip, Oral Cavity and Pharynx",middleAged,2018,M,35-44,1
-Non-Hodgkin Lymphoma,middleAged,2018,M,35-44,1
-Rectum,middleAged,2018,M,35-44,1
-Brain and Nervous System,middleAged,2018,M,45-54,5
-Colon,middleAged,2018,M,45-54,4
-Lung,middleAged,2018,M,45-54,4
-Lung,middleAged,2018,M,55-64,21
-Liver,middleAged,2018,M,55-64,13
-Pancreas,middleAged,2018,M,55-64,10
-Breast,middleAged,2019,F,35-44,2
-Other Digestive Organ,middleAged,2019,F,35-44,1
-Stomach,middleAged,2019,F,35-44,1
-Lung,middleAged,2019,F,45-54,7
-Colon,middleAged,2019,F,45-54,5
-Breast,middleAged,2019,F,45-54,4
-Breast,middleAged,2019,F,55-64,14
-Lung,middleAged,2019,F,55-64,13
-Liver,middleAged,2019,F,55-64,6
-Pancreas,middleAged,2019,F,55-64,6
-Brain or Endocrine,middleAged,2019,M,35-44,1
-Colon,middleAged,2019,M,35-44,1
-Mycosis Fungoides,middleAged,2019,M,35-44,1
-Other Digestive Organ,middleAged,2019,M,35-44,1
-Other Male Genital,middleAged,2019,M,35-44,1
-Other Respiratory and Intrathoracic Organs,middleAged,2019,M,35-44,1
-Unspecified Cancer,middleAged,2019,M,35-44,1
-Lung,middleAged,2019,M,45-54,5
-Stomach,middleAged,2019,M,45-54,5
-Kidney,middleAged,2019,M,45-54,3
-Lung,middleAged,2019,M,55-64,31
-Prostate,middleAged,2019,M,55-64,9
-Liver,middleAged,2019,M,55-64,8
-Breast,middleAged,2020,F,35-44,5
-Cervix,middleAged,2020,F,35-44,1
-Colon,middleAged,2020,F,35-44,1
-Lung,middleAged,2020,F,35-44,1
-Lymphatic or Blood,middleAged,2020,F,35-44,1
-Other Female Genital,middleAged,2020,F,35-44,1
-Rectum,middleAged,2020,F,35-44,1
-Breast,middleAged,2020,F,45-54,7
-Lymphatic or Blood,middleAged,2020,F,45-54,4
-Cervix,middleAged,2020,F,45-54,3
-Other Digestive Organ,middleAged,2020,F,45-54,3
-Lung,middleAged,2020,F,55-64,17
-Breast,middleAged,2020,F,55-64,12
-Other Female Genital,middleAged,2020,F,55-64,10
-Colon,middleAged,2020,M,35-44,2
-Brain and Nervous System,middleAged,2020,M,35-44,1
-Lymphatic or Blood,middleAged,2020,M,35-44,1
-"Melanoma, skin",middleAged,2020,M,35-44,1
-Rectum,middleAged,2020,M,35-44,1
-Pancreas,middleAged,2020,M,45-54,6
-Colon,middleAged,2020,M,45-54,5
-Rectum,middleAged,2020,M,45-54,4
-Lung,middleAged,2020,M,55-64,27
-Liver,middleAged,2020,M,55-64,16
-Colon,middleAged,2020,M,55-64,9
-Breast,middleAged,2021,F,35-44,2
-Lung,middleAged,2021,F,35-44,2
-Brain and Nervous System,middleAged,2021,F,35-44,1
-Colon,middleAged,2021,F,35-44,1
-Myeloid and Monocytic Leukemia,middleAged,2021,F,35-44,1
-Non-Hodgkin Lymphoma,middleAged,2021,F,35-44,1
-Other Female Genital,middleAged,2021,F,35-44,1
-Breast,middleAged,2021,F,45-54,4
-Corpus Uteri,middleAged,2021,F,45-54,4
-Lung,middleAged,2021,F,45-54,3
-Pancreas,middleAged,2021,F,45-54,3
-Breast,middleAged,2021,F,55-64,12
-Other Female Genital,middleAged,2021,F,55-64,8
-Lung,middleAged,2021,F,55-64,7
-Liver,middleAged,2021,M,35-44,2
-Brain and Nervous System,middleAged,2021,M,35-44,1
-Colon,middleAged,2021,M,35-44,1
-"Leukemia, other",middleAged,2021,M,35-44,1
-Pancreas,middleAged,2021,M,35-44,1
-Rectum,middleAged,2021,M,35-44,1
-Liver,middleAged,2021,M,45-54,4
-Pancreas,middleAged,2021,M,45-54,4
-Colon,middleAged,2021,M,45-54,3
-Kidney,middleAged,2021,M,45-54,3
-"Melanoma, skin",middleAged,2021,M,45-54,3
-Prostate,middleAged,2021,M,45-54,3
-Lung,middleAged,2021,M,55-64,18
-Pancreas,middleAged,2021,M,55-64,11
-Liver,middleAged,2021,M,55-64,9
-Breast,middleAged,2022,F,35-44,2
-Cervix,middleAged,2022,F,35-44,1
-Colon,middleAged,2022,F,35-44,1
-Lung,middleAged,2022,F,35-44,1
-Lymphatic or Blood,middleAged,2022,F,35-44,1
-Non-Hodgkin Lymphoma,middleAged,2022,F,35-44,1
-Pancreas,middleAged,2022,F,35-44,1
-Rectum,middleAged,2022,F,35-44,1
-Breast,middleAged,2022,F,45-54,12
-Lung,middleAged,2022,F,45-54,5
-Brain and Nervous System,middleAged,2022,F,45-54,4
-Colon,middleAged,2022,F,45-54,4
-Lung,middleAged,2022,F,55-64,22
-Breast,middleAged,2022,F,55-64,16
-Pancreas,middleAged,2022,F,55-64,10
-Esophagus,middleAged,2022,M,35-44,2
-Non-Hodgkin Lymphoma,middleAged,2022,M,35-44,2
-Liver,middleAged,2022,M,35-44,1
-Myeloid and Monocytic Leukemia,middleAged,2022,M,35-44,1
-Other Digestive Organ,middleAged,2022,M,35-44,1
-Prostate,middleAged,2022,M,35-44,1
-Soft Tissue,middleAged,2022,M,35-44,1
-Stomach,middleAged,2022,M,35-44,1
-Colon,middleAged,2022,M,45-54,6
-Pancreas,middleAged,2022,M,45-54,4
-Brain and Nervous System,middleAged,2022,M,45-54,3
-Other Digestive Organ,middleAged,2022,M,45-54,3
-Lung,middleAged,2022,M,55-64,23
-Esophagus,middleAged,2022,M,55-64,9
-Pancreas,middleAged,2022,M,55-64,7
-Prostate,middleAged,2022,M,55-64,7
-Breast,middleAged,2023,F,35-44,2
-Cervix,middleAged,2023,F,35-44,1
-Colon,middleAged,2023,F,45-54,4
-Other Digestive Organ,middleAged,2023,F,45-54,4
-Corpus Uteri,middleAged,2023,F,45-54,3
-Breast,middleAged,2023,F,55-64,13
-Lung,middleAged,2023,F,55-64,9
-Other Female Genital,middleAged,2023,F,55-64,6
-Colon,middleAged,2023,M,35-44,3
-Esophagus,middleAged,2023,M,35-44,1
-"Lip, Oral Cavity and Pharynx",middleAged,2023,M,35-44,1
-Lymphatic or Blood,middleAged,2023,M,35-44,1
-"Melanoma, skin",middleAged,2023,M,35-44,1
-Pancreas,middleAged,2023,M,35-44,1
-Brain and Nervous System,middleAged,2023,M,45-54,5
-Lung,middleAged,2023,M,45-54,3
-Rectum,middleAged,2023,M,45-54,3
-Lung,middleAged,2023,M,55-64,16
-Lymphatic or Blood,middleAged,2023,M,55-64,8
-Liver,middleAged,2023,M,55-64,7
-Pancreas,middleAged,2023,M,55-64,7
-Colon,over80,2014,F,75-84,4
-Lung,over80,2014,F,75-84,4
-Other Female Genital,over80,2014,F,75-84,3
-Lung,over80,2014,F,85over,15
-Colon,over80,2014,F,85over,5
-Non-Hodgkin Lymphoma,over80,2014,F,85over,5
-Unspecified Cancer,over80,2014,F,85over,5
-Prostate,over80,2014,M,75-84,5
-Lung,over80,2014,M,75-84,4
-Urinary Bladder,over80,2014,M,75-84,4
-Lung,over80,2014,M,85over,7
-Prostate,over80,2014,M,85over,7
-Colon,over80,2014,M,85over,6
-Lung,over80,2015,F,75-84,18
-Lymphatic or Blood,over80,2015,F,75-84,6
-Other Female Genital,over80,2015,F,75-84,6
-Lung,over80,2015,F,85over,28
-Breast,over80,2015,F,85over,13
-Lymphatic or Blood,over80,2015,F,85over,11
-Lung,over80,2015,M,75-84,15
-Prostate,over80,2015,M,75-84,8
-Kidney,over80,2015,M,75-84,5
-Prostate,over80,2015,M,85over,16
-Lung,over80,2015,M,85over,14
-Urinary Bladder,over80,2015,M,85over,13
-Lung,over80,2016,F,75-84,12
-Corpus Uteri,over80,2016,F,75-84,4
-Non-Hodgkin Lymphoma,over80,2016,F,75-84,3
-Colon,over80,2016,F,85over,11
-Lung,over80,2016,F,85over,11
-Breast,over80,2016,F,85over,9
-Lung,over80,2016,M,75-84,10
-Prostate,over80,2016,M,75-84,10
-Colon,over80,2016,M,75-84,7
-Prostate,over80,2016,M,85over,21
-Lung,over80,2016,M,85over,17
-Lymphatic or Blood,over80,2016,M,85over,7
-Lung,over80,2017,F,75-84,20
-Other Female Genital,over80,2017,F,75-84,6
-Pancreas,over80,2017,F,75-84,6
-Lung,over80,2017,F,85over,17
-Breast,over80,2017,F,85over,15
-Pancreas,over80,2017,F,85over,6
-Prostate,over80,2017,M,75-84,10
-Lung,over80,2017,M,75-84,9
-Non-Hodgkin Lymphoma,over80,2017,M,75-84,5
-Lung,over80,2017,M,85over,15
-Prostate,over80,2017,M,85over,9
-Colon,over80,2017,M,85over,7
-Lung,over80,2018,F,75-84,11
-Pancreas,over80,2018,F,75-84,6
-Myeloid and Monocytic Leukemia,over80,2018,F,75-84,3
-Unspecified Cancer,over80,2018,F,75-84,3
-Colon,over80,2018,F,85over,16
-Breast,over80,2018,F,85over,9
-Lung,over80,2018,F,85over,9
-Lung,over80,2018,M,75-84,7
-Prostate,over80,2018,M,75-84,4
-Unspecified Cancer,over80,2018,M,75-84,4
-Prostate,over80,2018,M,85over,14
-Lung,over80,2018,M,85over,11
-Urinary Bladder,over80,2018,M,85over,6
-Lung,over80,2019,F,75-84,11
-Non-Hodgkin Lymphoma,over80,2019,F,75-84,4
-Other Hematopoietic,over80,2019,F,75-84,4
-Breast,over80,2019,F,85over,12
-Lung,over80,2019,F,85over,9
-Colon,over80,2019,F,85over,7
-Unspecified Cancer,over80,2019,F,85over,7
-Lung,over80,2019,M,75-84,8
-Prostate,over80,2019,M,75-84,4
-Urinary Bladder,over80,2019,M,75-84,3
-Prostate,over80,2019,M,85over,13
-Lung,over80,2019,M,85over,12
-Lymphatic or Blood,over80,2019,M,85over,6
-Lung,over80,2020,F,75-84,12
-Pancreas,over80,2020,F,75-84,7
-Other Female Genital,over80,2020,F,75-84,6
-Lung,over80,2020,F,85over,21
-Colon,over80,2020,F,85over,11
-Breast,over80,2020,F,85over,8
-Lung,over80,2020,M,75-84,9
-Prostate,over80,2020,M,75-84,8
-Colon,over80,2020,M,75-84,6
-Prostate,over80,2020,M,85over,18
-Lung,over80,2020,M,85over,17
-Colon,over80,2020,M,85over,9
-Non-Hodgkin Lymphoma,over80,2020,M,85over,9
-Lung,over80,2021,F,75-84,9
-Breast,over80,2021,F,75-84,4
-Other Female Genital,over80,2021,F,75-84,4
-Pancreas,over80,2021,F,85over,9
-Lung,over80,2021,F,85over,8
-Breast,over80,2021,F,85over,7
-Lung,over80,2021,M,75-84,4
-Prostate,over80,2021,M,75-84,4
-Multiple Myeloma,over80,2021,M,75-84,3
-Myeloid and Monocytic Leukemia,over80,2021,M,75-84,3
-Urinary Bladder,over80,2021,M,75-84,3
-Prostate,over80,2021,M,85over,13
-Lung,over80,2021,M,85over,7
-Pancreas,over80,2021,M,85over,7
-Urinary Bladder,over80,2021,M,85over,7
-Lung,over80,2022,F,75-84,9
-Pancreas,over80,2022,F,75-84,5
-Colon,over80,2022,F,75-84,4
-Pancreas,over80,2022,F,85over,16
-Breast,over80,2022,F,85over,15
-Lung,over80,2022,F,85over,12
-Lung,over80,2022,M,75-84,9
-Pancreas,over80,2022,M,75-84,7
-Non-Hodgkin Lymphoma,over80,2022,M,75-84,5
-Prostate,over80,2022,M,85over,31
-Lymphatic or Blood,over80,2022,M,85over,10
-Lung,over80,2022,M,85over,9
-Lung,over80,2023,F,75-84,13
-Lymphatic or Blood,over80,2023,F,75-84,5
-Breast,over80,2023,F,75-84,4
-Colon,over80,2023,F,75-84,4
-Lung,over80,2023,F,85over,19
-Pancreas,over80,2023,F,85over,7
-Breast,over80,2023,F,85over,6
-Prostate,over80,2023,M,75-84,10
-Lung,over80,2023,M,75-84,7
-Pancreas,over80,2023,M,75-84,4
-Lymphatic or Blood,over80,2023,M,85over,6
-Urinary Bladder,over80,2023,M,85over,5
-Lung,over80,2023,M,85over,4
-Prostate,over80,2023,M,85over,4
-Unspecified Cancer,toddler,2014,F,0-5,1
-Myeloid and Monocytic Leukemia,toddler,2015,F,0-5,1
-Ill-Defined Sites,toddler,2015,M,0-5,1
-Lymphoid Leukemia,toddler,2017,M,0-5,1
-Other Digestive Organ,toddler,2018,F,0-5,1
-Soft Tissue,toddler,2018,F,0-5,1
-Brain and Nervous System,toddler,2019,M,0-5,1
-Brain and Nervous System,toddler,2020,M,0-5,2
-"Leukemia, other",toddler,2020,M,0-5,1
-"Lip, Oral Cavity and Pharynx",youngAdult,2014,F,20-24,1
-Cervix,youngAdult,2014,F,25-29,1
-Lymphoid Leukemia,youngAdult,2014,F,25-29,1
-Breast,youngAdult,2014,F,35-44,2
-Brain or Endocrine,youngAdult,2014,F,35-44,1
-Myeloid and Monocytic Leukemia,youngAdult,2014,F,35-44,1
-Stomach,youngAdult,2014,F,35-44,1
-Kidney,youngAdult,2014,M,20-24,1
-Brain and Nervous System,youngAdult,2014,M,25-29,2
-Brain and Nervous System,youngAdult,2014,M,30-34,1
-Kidney,youngAdult,2014,M,30-34,1
-Lung,youngAdult,2014,M,30-34,1
-Brain and Nervous System,youngAdult,2014,M,35-44,1
-Unspecified Cancer,youngAdult,2014,M,35-44,1
-Bones and Joints,youngAdult,2015,F,20-24,1
-Brain and Nervous System,youngAdult,2015,F,20-24,1
-Brain and Nervous System,youngAdult,2015,F,25-29,1
-Stomach,youngAdult,2015,F,25-29,1
-Breast,youngAdult,2015,F,30-34,1
-Lymphoid Leukemia,youngAdult,2015,F,30-34,1
-Myeloid and Monocytic Leukemia,youngAdult,2015,F,30-34,1
-Stomach,youngAdult,2015,F,30-34,1
-Breast,youngAdult,2015,F,35-44,3
-Colon,youngAdult,2015,F,35-44,1
-Corpus Uteri,youngAdult,2015,F,35-44,1
-"Melanoma, skin",youngAdult,2015,F,35-44,1
-Other Digestive Organ,youngAdult,2015,F,35-44,1
-Unspecified Cancer,youngAdult,2015,F,35-44,1
-Kidney,youngAdult,2015,M,20-24,1
-Lymphoid Leukemia,youngAdult,2015,M,30-34,1
-"Melanoma, skin",youngAdult,2015,M,30-34,1
-Unspecified Cancer,youngAdult,2015,M,30-34,1
-Bones and Joints,youngAdult,2015,M,35-44,1
-Brain and Nervous System,youngAdult,2015,M,35-44,1
-Colon,youngAdult,2015,M,35-44,1
-Esophagus,youngAdult,2015,M,35-44,1
-Ill-Defined Sites,youngAdult,2015,M,35-44,1
-Non-Hodgkin Lymphoma,youngAdult,2015,M,35-44,1
-Other Endocrine System,youngAdult,2015,M,35-44,1
-Pancreas,youngAdult,2015,M,35-44,1
-Hodgkin Lymphoma,youngAdult,2016,F,20-24,1
-Other Digestive Organ,youngAdult,2016,F,20-24,1
-Colon,youngAdult,2016,F,30-34,2
-Brain and Nervous System,youngAdult,2016,F,30-34,1
-Breast,youngAdult,2016,F,30-34,1
-Breast,youngAdult,2016,F,35-44,3
-Brain and Nervous System,youngAdult,2016,F,35-44,1
-Pancreas,youngAdult,2016,F,35-44,1
-Brain and Nervous System,youngAdult,2016,M,30-34,1
-Colon,youngAdult,2016,M,30-34,1
-Kidney,youngAdult,2016,M,30-34,1
-"Melanoma, skin",youngAdult,2016,M,30-34,1
-Soft Tissue,youngAdult,2016,M,30-34,1
-Pancreas,youngAdult,2016,M,35-44,1
-Unspecified Cancer,youngAdult,2016,M,35-44,1
-Brain and Nervous System,youngAdult,2017,F,25-29,1
-Other Respiratory and Intrathoracic Organs,youngAdult,2017,F,25-29,1
-Other Digestive Organ,youngAdult,2017,F,30-34,1
-Other Female Genital,youngAdult,2017,F,30-34,1
-Breast,youngAdult,2017,F,35-44,1
-Cervix,youngAdult,2017,F,35-44,1
-Colon,youngAdult,2017,F,35-44,1
-Liver,youngAdult,2017,F,35-44,1
-Lung,youngAdult,2017,F,35-44,1
-Other Male Genital,youngAdult,2017,M,20-24,1
-Other Skin,youngAdult,2017,M,25-29,1
-Myeloid and Monocytic Leukemia,youngAdult,2017,M,30-34,2
-Brain and Nervous System,youngAdult,2017,M,30-34,1
-Unspecified Cancer,youngAdult,2017,M,30-34,1
-Lung,youngAdult,2017,M,35-44,2
-Brain and Nervous System,youngAdult,2017,M,35-44,1
-"Lip, Oral Cavity and Pharynx",youngAdult,2017,M,35-44,1
-"Melanoma, skin",youngAdult,2017,M,35-44,1
-Brain and Nervous System,youngAdult,2018,F,20-24,1
-Pancreas,youngAdult,2018,F,25-29,1
-Unspecified Cancer,youngAdult,2018,F,25-29,1
-"Lip, Oral Cavity and Pharynx",youngAdult,2018,F,30-34,1
-Lymphatic or Blood,youngAdult,2018,F,30-34,1
-"Lip, Oral Cavity and Pharynx",youngAdult,2018,F,35-44,1
-Lymphatic or Blood,youngAdult,2018,F,35-44,1
-Pancreas,youngAdult,2018,F,35-44,1
-Rectum,youngAdult,2018,F,35-44,1
-Unspecified Cancer,youngAdult,2018,M,25-29,3
-Non-Hodgkin Lymphoma,youngAdult,2018,M,30-34,1
-Brain and Nervous System,youngAdult,2018,M,35-44,1
-Urinary Bladder,youngAdult,2018,M,35-44,1
-Brain and Nervous System,youngAdult,2019,F,25-29,1
-Cervix,youngAdult,2019,F,30-34,1
-Lung,youngAdult,2019,F,30-34,1
-Unspecified Cancer,youngAdult,2019,F,30-34,1
-Brain and Nervous System,youngAdult,2019,F,35-44,1
-Breast,youngAdult,2019,F,35-44,1
-Cervix,youngAdult,2019,F,35-44,1
-Lung,youngAdult,2019,F,35-44,1
-Other Female Genital,youngAdult,2019,F,35-44,1
-Rectum,youngAdult,2019,F,35-44,1
-Unspecified Cancer,youngAdult,2019,M,20-24,1
-Lymphoid Leukemia,youngAdult,2019,M,30-34,1
-Bones and Joints,youngAdult,2020,F,25-29,1
-Liver,youngAdult,2020,F,25-29,1
-Breast,youngAdult,2020,F,30-34,2
-Brain and Nervous System,youngAdult,2020,F,30-34,1
-Myeloid and Monocytic Leukemia,youngAdult,2020,F,30-34,1
-Other Female Genital,youngAdult,2020,F,30-34,1
-Unspecified Cancer,youngAdult,2020,F,30-34,1
-Soft Tissue,youngAdult,2020,F,35-44,2
-Breast,youngAdult,2020,F,35-44,1
-Cervix,youngAdult,2020,F,35-44,1
-Myeloid and Monocytic Leukemia,youngAdult,2020,F,35-44,1
-Colon,youngAdult,2020,M,25-29,1
-Unspecified Cancer,youngAdult,2020,M,25-29,1
-Soft Tissue,youngAdult,2020,M,30-34,1
-Lung,youngAdult,2020,M,35-44,2
-"Melanoma, skin",youngAdult,2020,M,35-44,1
-Soft Tissue,youngAdult,2020,M,35-44,1
-Unspecified Cancer,youngAdult,2020,M,35-44,1
-Breast,youngAdult,2021,F,25-29,1
-Breast,youngAdult,2021,F,30-34,2
-Breast,youngAdult,2021,F,35-44,2
-Anus,youngAdult,2021,F,35-44,1
-Colon,youngAdult,2021,F,35-44,1
-Pancreas,youngAdult,2021,F,35-44,1
-Brain and Nervous System,youngAdult,2021,M,20-24,1
-Other Digestive Organ,youngAdult,2021,M,20-24,1
-Other Endocrine System,youngAdult,2021,M,25-29,1
-Lymphatic or Blood,youngAdult,2021,M,30-34,1
-Lymphoid Leukemia,youngAdult,2021,M,30-34,1
-Brain and Nervous System,youngAdult,2021,M,35-44,1
-Other Respiratory and Intrathoracic Organs,youngAdult,2021,M,35-44,1
-Soft Tissue,youngAdult,2021,M,35-44,1
-Lymphatic or Blood,youngAdult,2022,F,18-19,1
-Lymphoid Leukemia,youngAdult,2022,F,20-24,1
-Colon,youngAdult,2022,F,25-29,1
-Non-Hodgkin Lymphoma,youngAdult,2022,F,25-29,1
-Other Female Genital,youngAdult,2022,F,25-29,1
-Breast,youngAdult,2022,F,30-34,2
-Corpus Uteri,youngAdult,2022,F,30-34,1
-Kidney,youngAdult,2022,F,30-34,1
-"Melanoma, skin",youngAdult,2022,F,30-34,1
-Other Respiratory and Intrathoracic Organs,youngAdult,2022,F,30-34,1
-Brain and Nervous System,youngAdult,2022,F,35-44,1
-Non-Hodgkin Lymphoma,youngAdult,2022,F,35-44,1
-Other Respiratory and Intrathoracic Organs,youngAdult,2022,F,35-44,1
-Stomach,youngAdult,2022,F,35-44,1
-Bones and Joints,youngAdult,2022,M,20-24,1
-Lymphatic or Blood,youngAdult,2022,M,20-24,1
-Other Male Genital,youngAdult,2022,M,25-29,1
-Soft Tissue,youngAdult,2022,M,25-29,1
-Unspecified Cancer,youngAdult,2022,M,25-29,1
-Brain and Nervous System,youngAdult,2022,M,30-34,2
-Other Male Genital,youngAdult,2022,M,30-34,2
-Liver,youngAdult,2022,M,30-34,1
-Other Digestive Organ,youngAdult,2022,M,30-34,1
-Other Endocrine System,youngAdult,2022,M,30-34,1
-Unspecified Cancer,youngAdult,2022,M,30-34,1
-Brain and Nervous System,youngAdult,2022,M,35-44,1
-Colon,youngAdult,2022,M,35-44,1
-Other Male Genital,youngAdult,2022,M,35-44,1
-Pancreas,youngAdult,2022,M,35-44,1
-Soft Tissue,youngAdult,2022,M,35-44,1
-Soft Tissue,youngAdult,2023,F,20-24,1
-Unspecified Cancer,youngAdult,2023,F,20-24,1
-Lymphatic or Blood,youngAdult,2023,F,25-29,1
-Myeloid and Monocytic Leukemia,youngAdult,2023,F,30-34,1
-Brain and Nervous System,youngAdult,2023,F,35-44,1
-Corpus Uteri,youngAdult,2023,F,35-44,1
-Multiple Myeloma,youngAdult,2023,F,35-44,1
-Bones and Joints,youngAdult,2023,M,20-24,1
-Lymphoid Leukemia,youngAdult,2023,M,25-29,1
-Non-Hodgkin Lymphoma,youngAdult,2023,M,25-29,1
-Soft Tissue,youngAdult,2023,M,25-29,1
-Other Digestive Organ,youngAdult,2023,M,30-34,1
-Brain and Nervous System,youngAdult,2023,M,35-44,1
-"Lip, Oral Cavity and Pharynx",youngAdult,2023,M,35-44,1
-Other Respiratory and Intrathoracic Organs,youngAdult,2023,M,35-44,1
+diseaseSite,ageClassification,ddodyear,ddsex,ageRanges,n,sex_age_combined
+Myeloid and Monocytic Leukemia,adolescent,2014,M,15-17,1,male15to17
+Brain and Nervous System,adolescent,2015,F,10-14,1,female10to14
+Non-Hodgkin Lymphoma,adolescent,2015,M,15-17,1,male15to17
+Brain and Nervous System,adolescent,2017,F,15-17,1,female15to17
+"Lip, Oral Cavity and Pharynx",adolescent,2017,F,18-19,1,female18to19
+Unspecified Cancer,adolescent,2019,M,15-17,1,male15to17
+"Leukemia, other",adolescent,2021,M,15-17,1,male15to17
+Myeloid and Monocytic Leukemia,adolescent,2022,F,10-14,1,female10to14
+Myeloid and Monocytic Leukemia,adolescent,2022,F,15-17,1,female15to17
+Bones and Joints,adolescent,2023,F,15-17,1,female15to17
+Lymphoid Leukemia,adolescent,2023,M,18-19,1,male18to19
+Breast,aged,2014,F,65-74,18,female65to74
+Lung,aged,2014,F,65-74,18,female65to74
+Lymphatic or Blood,aged,2014,F,65-74,8,female65to74
+Lung,aged,2014,F,75-84,18,female75to84
+Breast,aged,2014,F,75-84,5,female75to84
+Pancreas,aged,2014,F,75-84,4,female75to84
+Lung,aged,2014,M,65-74,26,male65to74
+Lymphatic or Blood,aged,2014,M,65-74,7,male65to74
+Pancreas,aged,2014,M,65-74,7,male65to74
+Prostate,aged,2014,M,65-74,7,male65to74
+Lung,aged,2014,M,75-84,6,male75to84
+Other Digestive Organ,aged,2014,M,75-84,4,male75to84
+Non-Hodgkin Lymphoma,aged,2014,M,75-84,3,male75to84
+Pancreas,aged,2014,M,75-84,3,male75to84
+Lung,aged,2015,F,65-74,53,female65to74
+Breast,aged,2015,F,65-74,24,female65to74
+Pancreas,aged,2015,F,65-74,12,female65to74
+Lung,aged,2015,F,75-84,33,female75to84
+Breast,aged,2015,F,75-84,8,female75to84
+Other Female Genital,aged,2015,F,75-84,7,female75to84
+Lung,aged,2015,M,65-74,58,male65to74
+Pancreas,aged,2015,M,65-74,17,male65to74
+Colon,aged,2015,M,65-74,15,male65to74
+Lung,aged,2015,M,75-84,15,male75to84
+Prostate,aged,2015,M,75-84,11,male75to84
+Colon,aged,2015,M,75-84,6,male75to84
+Liver,aged,2015,M,75-84,6,male75to84
+Lung,aged,2016,F,65-74,34,female65to74
+Breast,aged,2016,F,65-74,11,female65to74
+Other Female Genital,aged,2016,F,65-74,10,female65to74
+Lung,aged,2016,F,75-84,22,female75to84
+Breast,aged,2016,F,75-84,7,female75to84
+Pancreas,aged,2016,F,75-84,7,female75to84
+Lung,aged,2016,M,65-74,35,male65to74
+Pancreas,aged,2016,M,65-74,18,male65to74
+Colon,aged,2016,M,65-74,12,male65to74
+Liver,aged,2016,M,65-74,12,male65to74
+Prostate,aged,2016,M,65-74,12,male65to74
+Lung,aged,2016,M,75-84,10,male75to84
+Prostate,aged,2016,M,75-84,10,male75to84
+Colon,aged,2016,M,75-84,6,male75to84
+Lung,aged,2017,F,65-74,38,female65to74
+Breast,aged,2017,F,65-74,18,female65to74
+Other Female Genital,aged,2017,F,65-74,15,female65to74
+Lung,aged,2017,F,75-84,20,female75to84
+Breast,aged,2017,F,75-84,7,female75to84
+Pancreas,aged,2017,F,75-84,6,female75to84
+Lung,aged,2017,M,65-74,40,male65to74
+Pancreas,aged,2017,M,65-74,13,male65to74
+Prostate,aged,2017,M,65-74,12,male65to74
+Lung,aged,2017,M,75-84,12,male75to84
+Prostate,aged,2017,M,75-84,7,male75to84
+Colon,aged,2017,M,75-84,5,male75to84
+Lung,aged,2018,F,65-74,33,female65to74
+Breast,aged,2018,F,65-74,14,female65to74
+Pancreas,aged,2018,F,65-74,11,female65to74
+Lung,aged,2018,F,75-84,26,female75to84
+Other Female Genital,aged,2018,F,75-84,5,female75to84
+Breast,aged,2018,F,75-84,4,female75to84
+Pancreas,aged,2018,F,75-84,4,female75to84
+Lung,aged,2018,M,65-74,30,male65to74
+Liver,aged,2018,M,65-74,16,male65to74
+Pancreas,aged,2018,M,65-74,13,male65to74
+Prostate,aged,2018,M,65-74,13,male65to74
+Lung,aged,2018,M,75-84,15,male75to84
+Colon,aged,2018,M,75-84,8,male75to84
+Pancreas,aged,2018,M,75-84,5,male75to84
+Urinary Bladder,aged,2018,M,75-84,5,male75to84
+Lung,aged,2019,F,65-74,32,female65to74
+Breast,aged,2019,F,65-74,15,female65to74
+Lymphatic or Blood,aged,2019,F,65-74,10,female65to74
+Pancreas,aged,2019,F,65-74,10,female65to74
+Lung,aged,2019,F,75-84,24,female75to84
+Breast,aged,2019,F,75-84,10,female75to84
+Pancreas,aged,2019,F,75-84,8,female75to84
+Lung,aged,2019,M,65-74,30,male65to74
+Liver,aged,2019,M,65-74,16,male65to74
+Pancreas,aged,2019,M,65-74,15,male65to74
+Lung,aged,2019,M,75-84,17,male75to84
+Prostate,aged,2019,M,75-84,9,male75to84
+Other Hematopoietic,aged,2019,M,75-84,6,male75to84
+Lung,aged,2020,F,65-74,36,female65to74
+Breast,aged,2020,F,65-74,19,female65to74
+Pancreas,aged,2020,F,65-74,19,female65to74
+Lung,aged,2020,F,75-84,23,female75to84
+Breast,aged,2020,F,75-84,13,female75to84
+Pancreas,aged,2020,F,75-84,8,female75to84
+Lung,aged,2020,M,65-74,36,male65to74
+Liver,aged,2020,M,65-74,15,male65to74
+Prostate,aged,2020,M,65-74,11,male65to74
+Lung,aged,2020,M,75-84,16,male75to84
+Prostate,aged,2020,M,75-84,13,male75to84
+Colon,aged,2020,M,75-84,8,male75to84
+Lung,aged,2021,F,65-74,30,female65to74
+Breast,aged,2021,F,65-74,15,female65to74
+Pancreas,aged,2021,F,65-74,10,female65to74
+Lung,aged,2021,F,75-84,18,female75to84
+Breast,aged,2021,F,75-84,9,female75to84
+Colon,aged,2021,F,75-84,7,female75to84
+Pancreas,aged,2021,F,75-84,7,female75to84
+Lung,aged,2021,M,65-74,31,male65to74
+Prostate,aged,2021,M,65-74,15,male65to74
+Colon,aged,2021,M,65-74,11,male65to74
+Liver,aged,2021,M,65-74,11,male65to74
+Lymphatic or Blood,aged,2021,M,65-74,11,male65to74
+Pancreas,aged,2021,M,65-74,11,male65to74
+Lung,aged,2021,M,75-84,15,male75to84
+Prostate,aged,2021,M,75-84,9,male75to84
+Colon,aged,2021,M,75-84,5,male75to84
+Esophagus,aged,2021,M,75-84,5,male75to84
+Lung,aged,2022,F,65-74,37,female65to74
+Pancreas,aged,2022,F,65-74,20,female65to74
+Breast,aged,2022,F,65-74,17,female65to74
+Lung,aged,2022,F,75-84,26,female75to84
+Pancreas,aged,2022,F,75-84,13,female75to84
+Breast,aged,2022,F,75-84,11,female75to84
+Lung,aged,2022,M,65-74,33,male65to74
+Prostate,aged,2022,M,65-74,18,male65to74
+Liver,aged,2022,M,65-74,16,male65to74
+Lung,aged,2022,M,75-84,26,male75to84
+Prostate,aged,2022,M,75-84,17,male75to84
+Lymphatic or Blood,aged,2022,M,75-84,8,male75to84
+Lung,aged,2023,F,65-74,24,female65to74
+Breast,aged,2023,F,65-74,15,female65to74
+Other Female Genital,aged,2023,F,65-74,9,female65to74
+Pancreas,aged,2023,F,65-74,9,female65to74
+Pancreas,aged,2023,F,75-84,10,female75to84
+Lung,aged,2023,F,75-84,7,female75to84
+Lymphatic or Blood,aged,2023,F,75-84,7,female75to84
+Other Digestive Organ,aged,2023,F,75-84,7,female75to84
+Lung,aged,2023,M,65-74,27,male65to74
+Pancreas,aged,2023,M,65-74,12,male65to74
+Liver,aged,2023,M,65-74,11,male65to74
+Lung,aged,2023,M,75-84,16,male75to84
+Prostate,aged,2023,M,75-84,10,male75to84
+Pancreas,aged,2023,M,75-84,7,male75to84
+Unspecified Cancer,child,2017,F,5-9,1,female5to9
+Brain and Nervous System,child,2019,M,5-9,1,male5to9
+Kidney,child,2020,M,5-9,1,male5to9
+Unspecified Cancer,child,2020,M,5-9,1,male5to9
+Ill-Defined Sites,child,2022,F,10-14,1,female10to14
+Bones and Joints,child,2022,M,5-9,1,male5to9
+Brain and Nervous System,child,2023,M,5-9,1,male5to9
+Breast,middleAged,2014,F,35-44,3,female35to44
+Colon,middleAged,2014,F,35-44,1,female35to44
+Lung,middleAged,2014,F,35-44,1,female35to44
+"Melanoma, skin",middleAged,2014,F,35-44,1,female35to44
+Non-Hodgkin Lymphoma,middleAged,2014,F,35-44,1,female35to44
+Other Female Genital,middleAged,2014,F,35-44,1,female35to44
+Rectum,middleAged,2014,F,35-44,1,female35to44
+Soft Tissue,middleAged,2014,F,35-44,1,female35to44
+Breast,middleAged,2014,F,45-54,2,female45to54
+Colon,middleAged,2014,F,45-54,2,female45to54
+Corpus Uteri,middleAged,2014,F,45-54,2,female45to54
+Kidney,middleAged,2014,F,45-54,2,female45to54
+Other Female Genital,middleAged,2014,F,45-54,2,female45to54
+Unspecified Cancer,middleAged,2014,F,45-54,2,female45to54
+Lung,middleAged,2014,F,55-64,15,female55to64
+Breast,middleAged,2014,F,55-64,10,female55to64
+Other Female Genital,middleAged,2014,F,55-64,7,female55to64
+Lung,middleAged,2014,M,35-44,1,male35to44
+Lung,middleAged,2014,M,45-54,5,male45to54
+Brain and Nervous System,middleAged,2014,M,45-54,2,male45to54
+Colon,middleAged,2014,M,45-54,2,male45to54
+Stomach,middleAged,2014,M,45-54,2,male45to54
+Lung,middleAged,2014,M,55-64,11,male55to64
+Liver,middleAged,2014,M,55-64,9,male55to64
+Pancreas,middleAged,2014,M,55-64,9,male55to64
+Brain and Nervous System,middleAged,2015,F,35-44,1,female35to44
+Hodgkin Lymphoma,middleAged,2015,F,35-44,1,female35to44
+Lung,middleAged,2015,F,35-44,1,female35to44
+Other Digestive Organ,middleAged,2015,F,35-44,1,female35to44
+Other Female Genital,middleAged,2015,F,35-44,1,female35to44
+Stomach,middleAged,2015,F,35-44,1,female35to44
+Thyroid,middleAged,2015,F,35-44,1,female35to44
+Breast,middleAged,2015,F,45-54,12,female45to54
+Lung,middleAged,2015,F,45-54,5,female45to54
+Other Female Genital,middleAged,2015,F,45-54,4,female45to54
+Breast,middleAged,2015,F,55-64,25,female55to64
+Lung,middleAged,2015,F,55-64,23,female55to64
+Other Female Genital,middleAged,2015,F,55-64,12,female55to64
+Brain and Nervous System,middleAged,2015,M,35-44,1,male35to44
+Lung,middleAged,2015,M,35-44,1,male35to44
+Lymphoid Leukemia,middleAged,2015,M,35-44,1,male35to44
+Other Digestive Organ,middleAged,2015,M,35-44,1,male35to44
+Pancreas,middleAged,2015,M,35-44,1,male35to44
+Rectum,middleAged,2015,M,35-44,1,male35to44
+Lung,middleAged,2015,M,45-54,10,male45to54
+Esophagus,middleAged,2015,M,45-54,4,male45to54
+Pancreas,middleAged,2015,M,45-54,4,male45to54
+Stomach,middleAged,2015,M,45-54,4,male45to54
+Lung,middleAged,2015,M,55-64,32,male55to64
+Liver,middleAged,2015,M,55-64,17,male55to64
+"Lip, Oral Cavity and Pharynx",middleAged,2015,M,55-64,9,male55to64
+Breast,middleAged,2016,F,35-44,3,female35to44
+Lung,middleAged,2016,F,35-44,2,female35to44
+Anus,middleAged,2016,F,35-44,1,female35to44
+Non-Hodgkin Lymphoma,middleAged,2016,F,35-44,1,female35to44
+Pancreas,middleAged,2016,F,35-44,1,female35to44
+Breast,middleAged,2016,F,45-54,8,female45to54
+Lung,middleAged,2016,F,45-54,5,female45to54
+Cervix,middleAged,2016,F,45-54,4,female45to54
+Lung,middleAged,2016,F,55-64,26,female55to64
+Breast,middleAged,2016,F,55-64,8,female55to64
+Unspecified Cancer,middleAged,2016,F,55-64,7,female55to64
+Non-Hodgkin Lymphoma,middleAged,2016,M,35-44,1,male35to44
+Pancreas,middleAged,2016,M,35-44,1,male35to44
+Stomach,middleAged,2016,M,35-44,1,male35to44
+Unspecified Cancer,middleAged,2016,M,35-44,1,male35to44
+Lung,middleAged,2016,M,45-54,7,male45to54
+Colon,middleAged,2016,M,45-54,5,male45to54
+Liver,middleAged,2016,M,45-54,4,male45to54
+Lung,middleAged,2016,M,55-64,31,male55to64
+Liver,middleAged,2016,M,55-64,19,male55to64
+Colon,middleAged,2016,M,55-64,8,male55to64
+Esophagus,middleAged,2016,M,55-64,8,male55to64
+Breast,middleAged,2017,F,35-44,4,female35to44
+Brain and Nervous System,middleAged,2017,F,35-44,2,female35to44
+Esophagus,middleAged,2017,F,35-44,2,female35to44
+Lung,middleAged,2017,F,45-54,7,female45to54
+Other Female Genital,middleAged,2017,F,45-54,5,female45to54
+Breast,middleAged,2017,F,45-54,3,female45to54
+Cervix,middleAged,2017,F,45-54,3,female45to54
+Pancreas,middleAged,2017,F,45-54,3,female45to54
+Lung,middleAged,2017,F,55-64,18,female55to64
+Breast,middleAged,2017,F,55-64,13,female55to64
+Pancreas,middleAged,2017,F,55-64,7,female55to64
+Lymphoid Leukemia,middleAged,2017,M,35-44,2,male35to44
+Stomach,middleAged,2017,M,35-44,2,male35to44
+Colon,middleAged,2017,M,35-44,1,male35to44
+Liver,middleAged,2017,M,35-44,1,male35to44
+Lung,middleAged,2017,M,35-44,1,male35to44
+Non-Hodgkin Lymphoma,middleAged,2017,M,35-44,1,male35to44
+Unspecified Cancer,middleAged,2017,M,35-44,1,male35to44
+Pancreas,middleAged,2017,M,45-54,5,male45to54
+Lung,middleAged,2017,M,45-54,4,male45to54
+Other Digestive Organ,middleAged,2017,M,45-54,4,male45to54
+Lung,middleAged,2017,M,55-64,28,male55to64
+Liver,middleAged,2017,M,55-64,13,male55to64
+Pancreas,middleAged,2017,M,55-64,9,male55to64
+Breast,middleAged,2018,F,35-44,1,female35to44
+Breast,middleAged,2018,F,45-54,11,female45to54
+Lung,middleAged,2018,F,45-54,6,female45to54
+Colon,middleAged,2018,F,45-54,5,female45to54
+Lung,middleAged,2018,F,55-64,20,female55to64
+Breast,middleAged,2018,F,55-64,11,female55to64
+Other Female Genital,middleAged,2018,F,55-64,11,female55to64
+Brain and Nervous System,middleAged,2018,M,35-44,2,male35to44
+Colon,middleAged,2018,M,35-44,1,male35to44
+"Lip, Oral Cavity and Pharynx",middleAged,2018,M,35-44,1,male35to44
+Non-Hodgkin Lymphoma,middleAged,2018,M,35-44,1,male35to44
+Rectum,middleAged,2018,M,35-44,1,male35to44
+Brain and Nervous System,middleAged,2018,M,45-54,5,male45to54
+Colon,middleAged,2018,M,45-54,4,male45to54
+Lung,middleAged,2018,M,45-54,4,male45to54
+Lung,middleAged,2018,M,55-64,21,male55to64
+Liver,middleAged,2018,M,55-64,13,male55to64
+Pancreas,middleAged,2018,M,55-64,10,male55to64
+Breast,middleAged,2019,F,35-44,2,female35to44
+Other Digestive Organ,middleAged,2019,F,35-44,1,female35to44
+Stomach,middleAged,2019,F,35-44,1,female35to44
+Lung,middleAged,2019,F,45-54,7,female45to54
+Colon,middleAged,2019,F,45-54,5,female45to54
+Breast,middleAged,2019,F,45-54,4,female45to54
+Breast,middleAged,2019,F,55-64,14,female55to64
+Lung,middleAged,2019,F,55-64,13,female55to64
+Liver,middleAged,2019,F,55-64,6,female55to64
+Pancreas,middleAged,2019,F,55-64,6,female55to64
+Brain or Endocrine,middleAged,2019,M,35-44,1,male35to44
+Colon,middleAged,2019,M,35-44,1,male35to44
+Mycosis Fungoides,middleAged,2019,M,35-44,1,male35to44
+Other Digestive Organ,middleAged,2019,M,35-44,1,male35to44
+Other Male Genital,middleAged,2019,M,35-44,1,male35to44
+Other Respiratory and Intrathoracic Organs,middleAged,2019,M,35-44,1,male35to44
+Unspecified Cancer,middleAged,2019,M,35-44,1,male35to44
+Lung,middleAged,2019,M,45-54,5,male45to54
+Stomach,middleAged,2019,M,45-54,5,male45to54
+Kidney,middleAged,2019,M,45-54,3,male45to54
+Lung,middleAged,2019,M,55-64,31,male55to64
+Prostate,middleAged,2019,M,55-64,9,male55to64
+Liver,middleAged,2019,M,55-64,8,male55to64
+Breast,middleAged,2020,F,35-44,5,female35to44
+Cervix,middleAged,2020,F,35-44,1,female35to44
+Colon,middleAged,2020,F,35-44,1,female35to44
+Lung,middleAged,2020,F,35-44,1,female35to44
+Lymphatic or Blood,middleAged,2020,F,35-44,1,female35to44
+Other Female Genital,middleAged,2020,F,35-44,1,female35to44
+Rectum,middleAged,2020,F,35-44,1,female35to44
+Breast,middleAged,2020,F,45-54,7,female45to54
+Lymphatic or Blood,middleAged,2020,F,45-54,4,female45to54
+Cervix,middleAged,2020,F,45-54,3,female45to54
+Other Digestive Organ,middleAged,2020,F,45-54,3,female45to54
+Lung,middleAged,2020,F,55-64,17,female55to64
+Breast,middleAged,2020,F,55-64,12,female55to64
+Other Female Genital,middleAged,2020,F,55-64,10,female55to64
+Colon,middleAged,2020,M,35-44,2,male35to44
+Brain and Nervous System,middleAged,2020,M,35-44,1,male35to44
+Lymphatic or Blood,middleAged,2020,M,35-44,1,male35to44
+"Melanoma, skin",middleAged,2020,M,35-44,1,male35to44
+Rectum,middleAged,2020,M,35-44,1,male35to44
+Pancreas,middleAged,2020,M,45-54,6,male45to54
+Colon,middleAged,2020,M,45-54,5,male45to54
+Rectum,middleAged,2020,M,45-54,4,male45to54
+Lung,middleAged,2020,M,55-64,27,male55to64
+Liver,middleAged,2020,M,55-64,16,male55to64
+Colon,middleAged,2020,M,55-64,9,male55to64
+Breast,middleAged,2021,F,35-44,2,female35to44
+Lung,middleAged,2021,F,35-44,2,female35to44
+Brain and Nervous System,middleAged,2021,F,35-44,1,female35to44
+Colon,middleAged,2021,F,35-44,1,female35to44
+Myeloid and Monocytic Leukemia,middleAged,2021,F,35-44,1,female35to44
+Non-Hodgkin Lymphoma,middleAged,2021,F,35-44,1,female35to44
+Other Female Genital,middleAged,2021,F,35-44,1,female35to44
+Breast,middleAged,2021,F,45-54,4,female45to54
+Corpus Uteri,middleAged,2021,F,45-54,4,female45to54
+Lung,middleAged,2021,F,45-54,3,female45to54
+Pancreas,middleAged,2021,F,45-54,3,female45to54
+Breast,middleAged,2021,F,55-64,12,female55to64
+Other Female Genital,middleAged,2021,F,55-64,8,female55to64
+Lung,middleAged,2021,F,55-64,7,female55to64
+Liver,middleAged,2021,M,35-44,2,male35to44
+Brain and Nervous System,middleAged,2021,M,35-44,1,male35to44
+Colon,middleAged,2021,M,35-44,1,male35to44
+"Leukemia, other",middleAged,2021,M,35-44,1,male35to44
+Pancreas,middleAged,2021,M,35-44,1,male35to44
+Rectum,middleAged,2021,M,35-44,1,male35to44
+Liver,middleAged,2021,M,45-54,4,male45to54
+Pancreas,middleAged,2021,M,45-54,4,male45to54
+Colon,middleAged,2021,M,45-54,3,male45to54
+Kidney,middleAged,2021,M,45-54,3,male45to54
+"Melanoma, skin",middleAged,2021,M,45-54,3,male45to54
+Prostate,middleAged,2021,M,45-54,3,male45to54
+Lung,middleAged,2021,M,55-64,18,male55to64
+Pancreas,middleAged,2021,M,55-64,11,male55to64
+Liver,middleAged,2021,M,55-64,9,male55to64
+Breast,middleAged,2022,F,35-44,2,female35to44
+Cervix,middleAged,2022,F,35-44,1,female35to44
+Colon,middleAged,2022,F,35-44,1,female35to44
+Lung,middleAged,2022,F,35-44,1,female35to44
+Lymphatic or Blood,middleAged,2022,F,35-44,1,female35to44
+Non-Hodgkin Lymphoma,middleAged,2022,F,35-44,1,female35to44
+Pancreas,middleAged,2022,F,35-44,1,female35to44
+Rectum,middleAged,2022,F,35-44,1,female35to44
+Breast,middleAged,2022,F,45-54,12,female45to54
+Lung,middleAged,2022,F,45-54,5,female45to54
+Brain and Nervous System,middleAged,2022,F,45-54,4,female45to54
+Colon,middleAged,2022,F,45-54,4,female45to54
+Lung,middleAged,2022,F,55-64,22,female55to64
+Breast,middleAged,2022,F,55-64,16,female55to64
+Pancreas,middleAged,2022,F,55-64,10,female55to64
+Esophagus,middleAged,2022,M,35-44,2,male35to44
+Non-Hodgkin Lymphoma,middleAged,2022,M,35-44,2,male35to44
+Liver,middleAged,2022,M,35-44,1,male35to44
+Myeloid and Monocytic Leukemia,middleAged,2022,M,35-44,1,male35to44
+Other Digestive Organ,middleAged,2022,M,35-44,1,male35to44
+Prostate,middleAged,2022,M,35-44,1,male35to44
+Soft Tissue,middleAged,2022,M,35-44,1,male35to44
+Stomach,middleAged,2022,M,35-44,1,male35to44
+Colon,middleAged,2022,M,45-54,6,male45to54
+Pancreas,middleAged,2022,M,45-54,4,male45to54
+Brain and Nervous System,middleAged,2022,M,45-54,3,male45to54
+Other Digestive Organ,middleAged,2022,M,45-54,3,male45to54
+Lung,middleAged,2022,M,55-64,23,male55to64
+Esophagus,middleAged,2022,M,55-64,9,male55to64
+Pancreas,middleAged,2022,M,55-64,7,male55to64
+Prostate,middleAged,2022,M,55-64,7,male55to64
+Breast,middleAged,2023,F,35-44,2,female35to44
+Cervix,middleAged,2023,F,35-44,1,female35to44
+Colon,middleAged,2023,F,45-54,4,female45to54
+Other Digestive Organ,middleAged,2023,F,45-54,4,female45to54
+Corpus Uteri,middleAged,2023,F,45-54,3,female45to54
+Breast,middleAged,2023,F,55-64,13,female55to64
+Lung,middleAged,2023,F,55-64,9,female55to64
+Other Female Genital,middleAged,2023,F,55-64,6,female55to64
+Colon,middleAged,2023,M,35-44,3,male35to44
+Esophagus,middleAged,2023,M,35-44,1,male35to44
+"Lip, Oral Cavity and Pharynx",middleAged,2023,M,35-44,1,male35to44
+Lymphatic or Blood,middleAged,2023,M,35-44,1,male35to44
+"Melanoma, skin",middleAged,2023,M,35-44,1,male35to44
+Pancreas,middleAged,2023,M,35-44,1,male35to44
+Brain and Nervous System,middleAged,2023,M,45-54,5,male45to54
+Lung,middleAged,2023,M,45-54,3,male45to54
+Rectum,middleAged,2023,M,45-54,3,male45to54
+Lung,middleAged,2023,M,55-64,16,male55to64
+Lymphatic or Blood,middleAged,2023,M,55-64,8,male55to64
+Liver,middleAged,2023,M,55-64,7,male55to64
+Pancreas,middleAged,2023,M,55-64,7,male55to64
+Colon,over80,2014,F,75-84,4,female75to84
+Lung,over80,2014,F,75-84,4,female75to84
+Other Female Genital,over80,2014,F,75-84,3,female75to84
+Lung,over80,2014,F,85over,15,female85over
+Colon,over80,2014,F,85over,5,female85over
+Non-Hodgkin Lymphoma,over80,2014,F,85over,5,female85over
+Unspecified Cancer,over80,2014,F,85over,5,female85over
+Prostate,over80,2014,M,75-84,5,male75to84
+Lung,over80,2014,M,75-84,4,male75to84
+Urinary Bladder,over80,2014,M,75-84,4,male75to84
+Lung,over80,2014,M,85over,7,male85over
+Prostate,over80,2014,M,85over,7,male85over
+Colon,over80,2014,M,85over,6,male85over
+Lung,over80,2015,F,75-84,18,female75to84
+Lymphatic or Blood,over80,2015,F,75-84,6,female75to84
+Other Female Genital,over80,2015,F,75-84,6,female75to84
+Lung,over80,2015,F,85over,28,female85over
+Breast,over80,2015,F,85over,13,female85over
+Lymphatic or Blood,over80,2015,F,85over,11,female85over
+Lung,over80,2015,M,75-84,15,male75to84
+Prostate,over80,2015,M,75-84,8,male75to84
+Kidney,over80,2015,M,75-84,5,male75to84
+Prostate,over80,2015,M,85over,16,male85over
+Lung,over80,2015,M,85over,14,male85over
+Urinary Bladder,over80,2015,M,85over,13,male85over
+Lung,over80,2016,F,75-84,12,female75to84
+Corpus Uteri,over80,2016,F,75-84,4,female75to84
+Non-Hodgkin Lymphoma,over80,2016,F,75-84,3,female75to84
+Colon,over80,2016,F,85over,11,female85over
+Lung,over80,2016,F,85over,11,female85over
+Breast,over80,2016,F,85over,9,female85over
+Lung,over80,2016,M,75-84,10,male75to84
+Prostate,over80,2016,M,75-84,10,male75to84
+Colon,over80,2016,M,75-84,7,male75to84
+Prostate,over80,2016,M,85over,21,male85over
+Lung,over80,2016,M,85over,17,male85over
+Lymphatic or Blood,over80,2016,M,85over,7,male85over
+Lung,over80,2017,F,75-84,20,female75to84
+Other Female Genital,over80,2017,F,75-84,6,female75to84
+Pancreas,over80,2017,F,75-84,6,female75to84
+Lung,over80,2017,F,85over,17,female85over
+Breast,over80,2017,F,85over,15,female85over
+Pancreas,over80,2017,F,85over,6,female85over
+Prostate,over80,2017,M,75-84,10,male75to84
+Lung,over80,2017,M,75-84,9,male75to84
+Non-Hodgkin Lymphoma,over80,2017,M,75-84,5,male75to84
+Lung,over80,2017,M,85over,15,male85over
+Prostate,over80,2017,M,85over,9,male85over
+Colon,over80,2017,M,85over,7,male85over
+Lung,over80,2018,F,75-84,11,female75to84
+Pancreas,over80,2018,F,75-84,6,female75to84
+Myeloid and Monocytic Leukemia,over80,2018,F,75-84,3,female75to84
+Unspecified Cancer,over80,2018,F,75-84,3,female75to84
+Colon,over80,2018,F,85over,16,female85over
+Breast,over80,2018,F,85over,9,female85over
+Lung,over80,2018,F,85over,9,female85over
+Lung,over80,2018,M,75-84,7,male75to84
+Prostate,over80,2018,M,75-84,4,male75to84
+Unspecified Cancer,over80,2018,M,75-84,4,male75to84
+Prostate,over80,2018,M,85over,14,male85over
+Lung,over80,2018,M,85over,11,male85over
+Urinary Bladder,over80,2018,M,85over,6,male85over
+Lung,over80,2019,F,75-84,11,female75to84
+Non-Hodgkin Lymphoma,over80,2019,F,75-84,4,female75to84
+Other Hematopoietic,over80,2019,F,75-84,4,female75to84
+Breast,over80,2019,F,85over,12,female85over
+Lung,over80,2019,F,85over,9,female85over
+Colon,over80,2019,F,85over,7,female85over
+Unspecified Cancer,over80,2019,F,85over,7,female85over
+Lung,over80,2019,M,75-84,8,male75to84
+Prostate,over80,2019,M,75-84,4,male75to84
+Urinary Bladder,over80,2019,M,75-84,3,male75to84
+Prostate,over80,2019,M,85over,13,male85over
+Lung,over80,2019,M,85over,12,male85over
+Lymphatic or Blood,over80,2019,M,85over,6,male85over
+Lung,over80,2020,F,75-84,12,female75to84
+Pancreas,over80,2020,F,75-84,7,female75to84
+Other Female Genital,over80,2020,F,75-84,6,female75to84
+Lung,over80,2020,F,85over,21,female85over
+Colon,over80,2020,F,85over,11,female85over
+Breast,over80,2020,F,85over,8,female85over
+Lung,over80,2020,M,75-84,9,male75to84
+Prostate,over80,2020,M,75-84,8,male75to84
+Colon,over80,2020,M,75-84,6,male75to84
+Prostate,over80,2020,M,85over,18,male85over
+Lung,over80,2020,M,85over,17,male85over
+Colon,over80,2020,M,85over,9,male85over
+Non-Hodgkin Lymphoma,over80,2020,M,85over,9,male85over
+Lung,over80,2021,F,75-84,9,female75to84
+Breast,over80,2021,F,75-84,4,female75to84
+Other Female Genital,over80,2021,F,75-84,4,female75to84
+Pancreas,over80,2021,F,85over,9,female85over
+Lung,over80,2021,F,85over,8,female85over
+Breast,over80,2021,F,85over,7,female85over
+Lung,over80,2021,M,75-84,4,male75to84
+Prostate,over80,2021,M,75-84,4,male75to84
+Multiple Myeloma,over80,2021,M,75-84,3,male75to84
+Myeloid and Monocytic Leukemia,over80,2021,M,75-84,3,male75to84
+Urinary Bladder,over80,2021,M,75-84,3,male75to84
+Prostate,over80,2021,M,85over,13,male85over
+Lung,over80,2021,M,85over,7,male85over
+Pancreas,over80,2021,M,85over,7,male85over
+Urinary Bladder,over80,2021,M,85over,7,male85over
+Lung,over80,2022,F,75-84,9,female75to84
+Pancreas,over80,2022,F,75-84,5,female75to84
+Colon,over80,2022,F,75-84,4,female75to84
+Pancreas,over80,2022,F,85over,16,female85over
+Breast,over80,2022,F,85over,15,female85over
+Lung,over80,2022,F,85over,12,female85over
+Lung,over80,2022,M,75-84,9,male75to84
+Pancreas,over80,2022,M,75-84,7,male75to84
+Non-Hodgkin Lymphoma,over80,2022,M,75-84,5,male75to84
+Prostate,over80,2022,M,85over,31,male85over
+Lymphatic or Blood,over80,2022,M,85over,10,male85over
+Lung,over80,2022,M,85over,9,male85over
+Lung,over80,2023,F,75-84,13,female75to84
+Lymphatic or Blood,over80,2023,F,75-84,5,female75to84
+Breast,over80,2023,F,75-84,4,female75to84
+Colon,over80,2023,F,75-84,4,female75to84
+Lung,over80,2023,F,85over,19,female85over
+Pancreas,over80,2023,F,85over,7,female85over
+Breast,over80,2023,F,85over,6,female85over
+Prostate,over80,2023,M,75-84,10,male75to84
+Lung,over80,2023,M,75-84,7,male75to84
+Pancreas,over80,2023,M,75-84,4,male75to84
+Lymphatic or Blood,over80,2023,M,85over,6,male85over
+Urinary Bladder,over80,2023,M,85over,5,male85over
+Lung,over80,2023,M,85over,4,male85over
+Prostate,over80,2023,M,85over,4,male85over
+Unspecified Cancer,toddler,2014,F,0-5,1,female0to5
+Myeloid and Monocytic Leukemia,toddler,2015,F,0-5,1,female0to5
+Ill-Defined Sites,toddler,2015,M,0-5,1,male0to5
+Lymphoid Leukemia,toddler,2017,M,0-5,1,male0to5
+Other Digestive Organ,toddler,2018,F,0-5,1,female0to5
+Soft Tissue,toddler,2018,F,0-5,1,female0to5
+Brain and Nervous System,toddler,2019,M,0-5,1,male0to5
+Brain and Nervous System,toddler,2020,M,0-5,2,male0to5
+"Leukemia, other",toddler,2020,M,0-5,1,male0to5
+"Lip, Oral Cavity and Pharynx",youngAdult,2014,F,20-24,1,female20to24
+Cervix,youngAdult,2014,F,24-29,1,female24to29
+Lymphoid Leukemia,youngAdult,2014,F,24-29,1,female24to29
+Breast,youngAdult,2014,F,35-44,2,female35to44
+Brain or Endocrine,youngAdult,2014,F,35-44,1,female35to44
+Myeloid and Monocytic Leukemia,youngAdult,2014,F,35-44,1,female35to44
+Stomach,youngAdult,2014,F,35-44,1,female35to44
+Kidney,youngAdult,2014,M,20-24,1,male20to24
+Brain and Nervous System,youngAdult,2014,M,24-29,2,male24to29
+Brain and Nervous System,youngAdult,2014,M,30-34,1,male30to34
+Kidney,youngAdult,2014,M,30-34,1,male30to34
+Lung,youngAdult,2014,M,30-34,1,male30to34
+Brain and Nervous System,youngAdult,2014,M,35-44,1,male35to44
+Unspecified Cancer,youngAdult,2014,M,35-44,1,male35to44
+Bones and Joints,youngAdult,2015,F,20-24,1,female20to24
+Brain and Nervous System,youngAdult,2015,F,20-24,1,female20to24
+Brain and Nervous System,youngAdult,2015,F,24-29,1,female24to29
+Stomach,youngAdult,2015,F,24-29,1,female24to29
+Breast,youngAdult,2015,F,30-34,1,female30to34
+Lymphoid Leukemia,youngAdult,2015,F,30-34,1,female30to34
+Myeloid and Monocytic Leukemia,youngAdult,2015,F,30-34,1,female30to34
+Stomach,youngAdult,2015,F,30-34,1,female30to34
+Breast,youngAdult,2015,F,35-44,3,female35to44
+Colon,youngAdult,2015,F,35-44,1,female35to44
+Corpus Uteri,youngAdult,2015,F,35-44,1,female35to44
+"Melanoma, skin",youngAdult,2015,F,35-44,1,female35to44
+Other Digestive Organ,youngAdult,2015,F,35-44,1,female35to44
+Unspecified Cancer,youngAdult,2015,F,35-44,1,female35to44
+Kidney,youngAdult,2015,M,20-24,1,male20to24
+Lymphoid Leukemia,youngAdult,2015,M,30-34,1,male30to34
+"Melanoma, skin",youngAdult,2015,M,30-34,1,male30to34
+Unspecified Cancer,youngAdult,2015,M,30-34,1,male30to34
+Bones and Joints,youngAdult,2015,M,35-44,1,male35to44
+Brain and Nervous System,youngAdult,2015,M,35-44,1,male35to44
+Colon,youngAdult,2015,M,35-44,1,male35to44
+Esophagus,youngAdult,2015,M,35-44,1,male35to44
+Ill-Defined Sites,youngAdult,2015,M,35-44,1,male35to44
+Non-Hodgkin Lymphoma,youngAdult,2015,M,35-44,1,male35to44
+Other Endocrine System,youngAdult,2015,M,35-44,1,male35to44
+Pancreas,youngAdult,2015,M,35-44,1,male35to44
+Hodgkin Lymphoma,youngAdult,2016,F,20-24,1,female20to24
+Other Digestive Organ,youngAdult,2016,F,20-24,1,female20to24
+Colon,youngAdult,2016,F,30-34,2,female30to34
+Brain and Nervous System,youngAdult,2016,F,30-34,1,female30to34
+Breast,youngAdult,2016,F,30-34,1,female30to34
+Breast,youngAdult,2016,F,35-44,3,female35to44
+Brain and Nervous System,youngAdult,2016,F,35-44,1,female35to44
+Pancreas,youngAdult,2016,F,35-44,1,female35to44
+Brain and Nervous System,youngAdult,2016,M,30-34,1,male30to34
+Colon,youngAdult,2016,M,30-34,1,male30to34
+Kidney,youngAdult,2016,M,30-34,1,male30to34
+"Melanoma, skin",youngAdult,2016,M,30-34,1,male30to34
+Soft Tissue,youngAdult,2016,M,30-34,1,male30to34
+Pancreas,youngAdult,2016,M,35-44,1,male35to44
+Unspecified Cancer,youngAdult,2016,M,35-44,1,male35to44
+Brain and Nervous System,youngAdult,2017,F,24-29,1,female24to29
+Other Respiratory and Intrathoracic Organs,youngAdult,2017,F,24-29,1,female24to29
+Other Digestive Organ,youngAdult,2017,F,30-34,1,female30to34
+Other Female Genital,youngAdult,2017,F,30-34,1,female30to34
+Breast,youngAdult,2017,F,35-44,1,female35to44
+Cervix,youngAdult,2017,F,35-44,1,female35to44
+Colon,youngAdult,2017,F,35-44,1,female35to44
+Liver,youngAdult,2017,F,35-44,1,female35to44
+Lung,youngAdult,2017,F,35-44,1,female35to44
+Other Male Genital,youngAdult,2017,M,20-24,1,male20to24
+Other Skin,youngAdult,2017,M,24-29,1,male24to29
+Myeloid and Monocytic Leukemia,youngAdult,2017,M,30-34,2,male30to34
+Brain and Nervous System,youngAdult,2017,M,30-34,1,male30to34
+Unspecified Cancer,youngAdult,2017,M,30-34,1,male30to34
+Lung,youngAdult,2017,M,35-44,2,male35to44
+Brain and Nervous System,youngAdult,2017,M,35-44,1,male35to44
+"Lip, Oral Cavity and Pharynx",youngAdult,2017,M,35-44,1,male35to44
+"Melanoma, skin",youngAdult,2017,M,35-44,1,male35to44
+Brain and Nervous System,youngAdult,2018,F,20-24,1,female20to24
+Pancreas,youngAdult,2018,F,24-29,1,female24to29
+Unspecified Cancer,youngAdult,2018,F,24-29,1,female24to29
+"Lip, Oral Cavity and Pharynx",youngAdult,2018,F,30-34,1,female30to34
+Lymphatic or Blood,youngAdult,2018,F,30-34,1,female30to34
+"Lip, Oral Cavity and Pharynx",youngAdult,2018,F,35-44,1,female35to44
+Lymphatic or Blood,youngAdult,2018,F,35-44,1,female35to44
+Pancreas,youngAdult,2018,F,35-44,1,female35to44
+Rectum,youngAdult,2018,F,35-44,1,female35to44
+Unspecified Cancer,youngAdult,2018,M,24-29,3,male24to29
+Non-Hodgkin Lymphoma,youngAdult,2018,M,30-34,1,male30to34
+Brain and Nervous System,youngAdult,2018,M,35-44,1,male35to44
+Urinary Bladder,youngAdult,2018,M,35-44,1,male35to44
+Brain and Nervous System,youngAdult,2019,F,24-29,1,female24to29
+Cervix,youngAdult,2019,F,30-34,1,female30to34
+Lung,youngAdult,2019,F,30-34,1,female30to34
+Unspecified Cancer,youngAdult,2019,F,30-34,1,female30to34
+Brain and Nervous System,youngAdult,2019,F,35-44,1,female35to44
+Breast,youngAdult,2019,F,35-44,1,female35to44
+Cervix,youngAdult,2019,F,35-44,1,female35to44
+Lung,youngAdult,2019,F,35-44,1,female35to44
+Other Female Genital,youngAdult,2019,F,35-44,1,female35to44
+Rectum,youngAdult,2019,F,35-44,1,female35to44
+Unspecified Cancer,youngAdult,2019,M,20-24,1,male20to24
+Lymphoid Leukemia,youngAdult,2019,M,30-34,1,male30to34
+Bones and Joints,youngAdult,2020,F,24-29,1,female24to29
+Liver,youngAdult,2020,F,24-29,1,female24to29
+Breast,youngAdult,2020,F,30-34,2,female30to34
+Brain and Nervous System,youngAdult,2020,F,30-34,1,female30to34
+Myeloid and Monocytic Leukemia,youngAdult,2020,F,30-34,1,female30to34
+Other Female Genital,youngAdult,2020,F,30-34,1,female30to34
+Unspecified Cancer,youngAdult,2020,F,30-34,1,female30to34
+Soft Tissue,youngAdult,2020,F,35-44,2,female35to44
+Breast,youngAdult,2020,F,35-44,1,female35to44
+Cervix,youngAdult,2020,F,35-44,1,female35to44
+Myeloid and Monocytic Leukemia,youngAdult,2020,F,35-44,1,female35to44
+Colon,youngAdult,2020,M,24-29,1,male24to29
+Unspecified Cancer,youngAdult,2020,M,24-29,1,male24to29
+Soft Tissue,youngAdult,2020,M,30-34,1,male30to34
+Lung,youngAdult,2020,M,35-44,2,male35to44
+"Melanoma, skin",youngAdult,2020,M,35-44,1,male35to44
+Soft Tissue,youngAdult,2020,M,35-44,1,male35to44
+Unspecified Cancer,youngAdult,2020,M,35-44,1,male35to44
+Breast,youngAdult,2021,F,24-29,1,female24to29
+Breast,youngAdult,2021,F,30-34,2,female30to34
+Breast,youngAdult,2021,F,35-44,2,female35to44
+Anus,youngAdult,2021,F,35-44,1,female35to44
+Colon,youngAdult,2021,F,35-44,1,female35to44
+Pancreas,youngAdult,2021,F,35-44,1,female35to44
+Brain and Nervous System,youngAdult,2021,M,20-24,1,male20to24
+Other Digestive Organ,youngAdult,2021,M,20-24,1,male20to24
+Other Endocrine System,youngAdult,2021,M,24-29,1,male24to29
+Lymphatic or Blood,youngAdult,2021,M,30-34,1,male30to34
+Lymphoid Leukemia,youngAdult,2021,M,30-34,1,male30to34
+Brain and Nervous System,youngAdult,2021,M,35-44,1,male35to44
+Other Respiratory and Intrathoracic Organs,youngAdult,2021,M,35-44,1,male35to44
+Soft Tissue,youngAdult,2021,M,35-44,1,male35to44
+Lymphatic or Blood,youngAdult,2022,F,18-19,1,female18to19
+Lymphoid Leukemia,youngAdult,2022,F,20-24,1,female20to24
+Colon,youngAdult,2022,F,24-29,1,female24to29
+Non-Hodgkin Lymphoma,youngAdult,2022,F,24-29,1,female24to29
+Other Female Genital,youngAdult,2022,F,24-29,1,female24to29
+Breast,youngAdult,2022,F,30-34,2,female30to34
+Corpus Uteri,youngAdult,2022,F,30-34,1,female30to34
+Kidney,youngAdult,2022,F,30-34,1,female30to34
+"Melanoma, skin",youngAdult,2022,F,30-34,1,female30to34
+Other Respiratory and Intrathoracic Organs,youngAdult,2022,F,30-34,1,female30to34
+Brain and Nervous System,youngAdult,2022,F,35-44,1,female35to44
+Non-Hodgkin Lymphoma,youngAdult,2022,F,35-44,1,female35to44
+Other Respiratory and Intrathoracic Organs,youngAdult,2022,F,35-44,1,female35to44
+Stomach,youngAdult,2022,F,35-44,1,female35to44
+Bones and Joints,youngAdult,2022,M,20-24,1,male20to24
+Lymphatic or Blood,youngAdult,2022,M,20-24,1,male20to24
+Other Male Genital,youngAdult,2022,M,24-29,1,male24to29
+Soft Tissue,youngAdult,2022,M,24-29,1,male24to29
+Unspecified Cancer,youngAdult,2022,M,24-29,1,male24to29
+Brain and Nervous System,youngAdult,2022,M,30-34,2,male30to34
+Other Male Genital,youngAdult,2022,M,30-34,2,male30to34
+Liver,youngAdult,2022,M,30-34,1,male30to34
+Other Digestive Organ,youngAdult,2022,M,30-34,1,male30to34
+Other Endocrine System,youngAdult,2022,M,30-34,1,male30to34
+Unspecified Cancer,youngAdult,2022,M,30-34,1,male30to34
+Brain and Nervous System,youngAdult,2022,M,35-44,1,male35to44
+Colon,youngAdult,2022,M,35-44,1,male35to44
+Other Male Genital,youngAdult,2022,M,35-44,1,male35to44
+Pancreas,youngAdult,2022,M,35-44,1,male35to44
+Soft Tissue,youngAdult,2022,M,35-44,1,male35to44
+Soft Tissue,youngAdult,2023,F,20-24,1,female20to24
+Unspecified Cancer,youngAdult,2023,F,20-24,1,female20to24
+Lymphatic or Blood,youngAdult,2023,F,24-29,1,female24to29
+Myeloid and Monocytic Leukemia,youngAdult,2023,F,30-34,1,female30to34
+Brain and Nervous System,youngAdult,2023,F,35-44,1,female35to44
+Corpus Uteri,youngAdult,2023,F,35-44,1,female35to44
+Multiple Myeloma,youngAdult,2023,F,35-44,1,female35to44
+Bones and Joints,youngAdult,2023,M,20-24,1,male20to24
+Lymphoid Leukemia,youngAdult,2023,M,24-29,1,male24to29
+Non-Hodgkin Lymphoma,youngAdult,2023,M,24-29,1,male24to29
+Soft Tissue,youngAdult,2023,M,24-29,1,male24to29
+Other Digestive Organ,youngAdult,2023,M,30-34,1,male30to34
+Brain and Nervous System,youngAdult,2023,M,35-44,1,male35to44
+"Lip, Oral Cavity and Pharynx",youngAdult,2023,M,35-44,1,male35to44
+Other Respiratory and Intrathoracic Organs,youngAdult,2023,M,35-44,1,male35to44

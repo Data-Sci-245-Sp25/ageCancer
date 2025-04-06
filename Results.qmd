@@ -4,25 +4,40 @@ editor: visual
 ---
 
 ```{r}
+#| message: False 
+
 #installing relevant packages
 #install.packages("tidycensus")
 #install.packages("tidyverse")
 #install.packages("sf")
+#install.packages("tigris")
+
 
 #load libraries
 library(tidycensus)
 library(tidyverse)
 library(sf)
 library(scales)
+library(tigris)
+
+#reading data
+cancerData <- read_csv("./data/ageCancer.csv")
 
 ```
 
 ```{r}
+#| message: False 
+
 #set API key
+apiKey="__"
+census_api_key(apiKey, install = TRUE, overwrite=TRUE)
 
+readRenviron("~/.Renviron")
 ```
 
 ```{r}
+#| message: False 
+
 #query the following variables
 mc2023 <- get_acs(
   geography = "county",
@@ -61,12 +76,14 @@ mc2023 <- get_acs(
   county = "Multnomah",
   year = 2023,
   survey = "acs5",
-  geometry = TRUE
+  geometry = FALSE
 )
 
 ```
 
 ```{r}
+#| message: False 
+
 # Define the years you want to analyze
 years <- 2014:2023 # Adjust as needed
 
@@ -112,7 +129,7 @@ for (year in years) {
     county = "Multnomah",
     year = year,
     survey = "acs5",
-    geometry = TRUE
+    geometry = FALSE
   ) |>
     mutate(year = year) # Add year column for easier joining later
 }
@@ -120,6 +137,8 @@ for (year in years) {
 ```
 
 ```{r}
+#| message: False 
+
 # Combine all years
 pop_data_all_years <- bind_rows(pop_data_list)
 
@@ -133,6 +152,8 @@ pop_data_wide <- pop_data_all_years %>%
 ```
 
 ```{r}
+#| message: False 
+
 cancer_rates <- cancerData %>%
   left_join(pop_data_all_years, by = c("ddodyear" = "year", "sex_age_combined" = "variable")) %>%
   mutate(
@@ -149,11 +170,15 @@ cancer_rates <- cancerData %>%
 ```
 
 ```{r}
+#| message: False 
+
 filteredCancer <- cancerData %>%
   filter(diseaseSite == "Lung" | diseaseSite == "Liver" | diseaseSite == "Pancreas" | diseaseSite == "Prostate" | diseaseSite == "Breast" | diseaseSite == "Colon")
 ```
 
 ```{r}
+#| message: False 
+
 filtered_cancer_rates <- filteredCancer %>%
   left_join(pop_data_all_years, by = c("ddodyear" = "year", "sex_age_combined" = "variable")) %>%
   mutate(
@@ -170,28 +195,33 @@ filtered_cancer_rates <- filteredCancer %>%
 ```
 
 ```{r}
+#| label: rate_of_cancer_by_age
+#| message: False 
+#| fig-cap: "A bar chart that represents the top 6 cancers causing death by age group in Multnomah County."
+
 # Summarize total cases per age group and cancer type
-cancer_summary <- filteredCancer %>%
+cancer_summary <- filtered_cancer_rates %>%
   group_by(ageRanges, diseaseSite) %>%
-  summarize(total_cases = sum(n, na.rm = TRUE))
+  summarize(totalRate = sum(rate_per_100k, na.rm = TRUE))
 
 # Plot
-ggplot(cancer_summary, aes(x = ageRanges, y = total_cases, fill = diseaseSite)) +
+ggplot(cancer_summary, aes(x = ageRanges, y = totalRate, fill = diseaseSite)) +
   geom_bar(stat = "identity") +
-  labs(title = "Cancer Cases by Age Group and Type",
-       x = "Age Group", y = "Total Cases") +
+  labs(title = "Cancer Deaths by Age Group and Type",
+       x = "Age Group", y = "Rate of cancer death per 100k deaths") +
   theme_minimal() +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
 
 ```
 
-```{r}
-ggplot(timelineCancer45to54, mapping = aes(x = ddodyear, y = rate_per_100k, color = ddsex)) +
-  geom_line() +
-  geom_errorbar(aes(ymin = rate_per_100k - rate_moe, ymax = rate_per_100k + rate_moe))+
-  labs(title = "Number of cancer cases by sex and age group over ten years", 
-       x = "Year", 
-       y = "Rate of cancer (per 100k)")
-```
+
+
+
+
+
+
+
+
+
 
 
