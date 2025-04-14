@@ -1,10 +1,13 @@
 ---
 title: "Results"
-editor: visual
+format: 
+  html:
+    self-contained: true
 ---
 
 ```{r}
 #| message: False 
+#| echo: false
 
 #installing relevant packages
 #install.packages("tidycensus")
@@ -26,17 +29,18 @@ cancerData <- read_csv("./data/ageCancer.csv")
 ```
 
 ```{r}
-#| message: False 
+#| message: False
+#| echo: false
+ 
 
 #set API key
-apiKey="__"
-census_api_key(apiKey, install = TRUE, overwrite=TRUE)
+apiKey = Sys.getenv("CENSUS_API_KEY")
 
-readRenviron("~/.Renviron")
 ```
 
 ```{r}
 #| message: False 
+#| echo: false
 
 #query the following variables
 mc2023 <- get_acs(
@@ -83,6 +87,7 @@ mc2023 <- get_acs(
 
 ```{r}
 #| message: False 
+#| echo: false
 
 # Define the years you want to analyze
 years <- 2014:2023 # Adjust as needed
@@ -138,6 +143,7 @@ for (year in years) {
 
 ```{r}
 #| message: False 
+#| echo: false
 
 # Combine all years
 pop_data_all_years <- bind_rows(pop_data_list)
@@ -153,6 +159,7 @@ pop_data_wide <- pop_data_all_years %>%
 
 ```{r}
 #| message: False 
+#| echo: false
 
 cancer_rates <- cancerData %>%
   left_join(pop_data_all_years, by = c("ddodyear" = "year", "sex_age_combined" = "variable")) %>%
@@ -170,14 +177,19 @@ cancer_rates <- cancerData %>%
 ```
 
 ```{r}
+#| label: filtering_data_for_top_six_cancers
 #| message: False 
+#| echo: false
 
 filteredCancer <- cancerData %>%
-  filter(diseaseSite == "Lung" | diseaseSite == "Liver" | diseaseSite == "Pancreas" | diseaseSite == "Prostate" | diseaseSite == "Breast" | diseaseSite == "Colon")
+  filter(diseaseSite == "Lung" | diseaseSite == "Liver" | diseaseSite == "Pancreas" | diseaseSite == "Prostate" | diseaseSite == "Breast" | diseaseSite == "Colon") 
+  
 ```
 
 ```{r}
+#| label: creating_cancer_rates
 #| message: False 
+#| echo: false
 
 filtered_cancer_rates <- filteredCancer %>%
   left_join(pop_data_all_years, by = c("ddodyear" = "year", "sex_age_combined" = "variable")) %>%
@@ -193,10 +205,16 @@ filtered_cancer_rates <- filteredCancer %>%
     rate_moe = rate_per_100k * sqrt((population_moe / population)^2)
   )
 ```
+The six cancers shown are the top six cancers affecting individuals in Multnomah County. 
+
+The cancers with the highest average mortality rate (ordered highest to lowest) can be represented as follows: prostate, lung, breast, colon, pancreas, and liver. 
+
+In our research, we analyzed the age groups with a rate of cancer per 100,000 people above 50. Moving forward, this includes the 55-64, 65-74, 75-84, and over 85 years old age ranges. 
 
 ```{r}
 #| label: rate_of_cancer_by_age
 #| message: False 
+#| echo: false
 #| fig-cap: "A bar chart that represents the top 6 cancers causing death by age group in Multnomah County from 2014-2023."
 
 # Summarize total cases per age group and cancer type
@@ -214,71 +232,282 @@ ggplot(cancer_summary, aes(x = ageRanges, y = totalRate, fill = diseaseSite)) +
 
 ```
 
+**Cancers with high mortality rates by sex**
 ```{r}
-timelineCancer45to54 <- filtered_cancer_rates %>%
-  filter(sex_age_combined == "male45to54" | sex_age_combined == "female45to54")
+#| echo: false
 
-ggplot(timelineCancer45to54, mapping = aes(x = ddodyear, y = rate_per_100k, color = ddsex)) +
-  geom_line(aes(group = interaction(ddsex, diseaseSite)))+
-  geom_errorbar(aes(ymin = rate_per_100k - rate_moe, ymax = rate_per_100k + rate_moe))+
-  facet_wrap(~diseaseSite)+
-  labs(title = "Rate of cancer deaths from 45-54 years old by sex over ten years", 
-       x = "Year", 
-       y = "Rate of cancer death(per 100k)")
+#create a list of ANOVA tests for cancer rates dependent on sex
+sexCancer <- filtered_cancer_rates%>%
+  filter(diseaseSite == "Breast" | diseaseSite == "Prostate") %>%
+  mutate(
+    ageRanges = as.factor(ageRanges),
+    ddodyear = as.factor(ddodyear),
+    ddsex = as.factor(ddsex)
+  )
+
+
+sex_split_data <- split(sexCancer, sexCancer$diseaseSite)
+
+sex_results_list <- lapply(sex_split_data, function(df) {
+  aov(rate_per_100k ~ ageRanges + ddodyear, data = df)
+})
+
 ```
 
 ```{r}
-timelineCancer55to64 <- filtered_cancer_rates %>%
-  filter(sex_age_combined == "male55to64" | sex_age_combined == "female55to64")
+#| echo: false
 
-ggplot(timelineCancer55to64, mapping = aes(x = ddodyear, y = rate_per_100k, color = ddsex)) +
-  geom_line(aes(group = interaction(ddsex, diseaseSite)))+
-  geom_errorbar(aes(ymin = rate_per_100k - rate_moe, ymax = rate_per_100k + rate_moe))+
-  facet_wrap(~diseaseSite)+
-  labs(title = "Rate of cancer deaths from 55-64 years old by sex over ten years", 
-       x = "Year", 
-       y = "Rate of cancer death(per 100k)")
+#create a list of ANOVA tests for cancer rates by age range, year, and sex
+aSexCancer <- filtered_cancer_rates %>%
+  filter(diseaseSite != "Breast" & diseaseSite != "Prostate") %>%
+  mutate(
+    ageRanges = as.factor(ageRanges),
+    ddodyear = as.factor(ddodyear),
+    ddsex = as.factor(ddsex)
+  )
+
+
+a_sex_split_data <- split(aSexCancer, aSexCancer$diseaseSite)
+
+a_sex_results_list <- lapply(a_sex_split_data, function(df) {
+  aov(rate_per_100k ~ ageRanges + ddodyear + ddsex, data = df)
+})
 ```
 
 ```{r}
-timelineCancer65to74 <- filtered_cancer_rates %>%
-  filter(sex_age_combined == "male65to74" | sex_age_combined == "female65to74")
+#| label: rate_of_breast_cancer
+#| message: False 
+#| echo: false
+#| fig-cap: "A line plot that visualizes breast cancer fatality rates in Multnomah County 2014-2023. There are statistically significant differences of breast cancer mortality rate in years and age ranges."
 
-ggplot(timelineCancer65to74, mapping = aes(x = ddodyear, y = rate_per_100k, color = ddsex)) +
+breastCancer <- filtered_cancer_rates %>%
+  filter(diseaseSite=="Breast")%>%
+  filter(ageRanges %in% c("55-64", "65-74", "75-84", "85over"))
+
+ggplot(breastCancer, mapping = aes(x = ddodyear, y = rate_per_100k, color = ddsex)) +
   geom_line(aes(group = interaction(ddsex, diseaseSite)))+
-  geom_errorbar(aes(ymin = rate_per_100k - rate_moe, ymax = rate_per_100k + rate_moe))+
-  facet_wrap(~diseaseSite)+
-  labs(title = "Rate of cancer deaths from 65-74 years old by sex over ten years", 
+  facet_wrap(~ageRanges)+
+  labs(title = "Breast cancer affects older women more than younger women", 
+      color = "Sex",
        x = "Year", 
-       y = "Rate of cancer death(per 100k)")
+       y = "Rate of cancer death(per 100k)") +
+  scale_color_manual(labels = c("F"), values = c("red"))
+```
+```{r}
+#| label: anova_breast
+#| message: False 
+#| echo: false
+
+summary(sex_results_list[["Breast"]])
+
+#no males in this data set
+#statistical difference of cancer rates by age range
+#statistical difference in year
 ```
 
 ```{r}
-timelineCancer75to84 <- filtered_cancer_rates %>%
-  filter(sex_age_combined == "male75to84" | sex_age_combined == "female75to84")
+#| label: tukey_breast
+#| message: False 
+#| echo: false
 
-ggplot(timelineCancer75to84, mapping = aes(x = ddodyear, y = rate_per_100k, color = ddsex)) +
+
+TukeyHSD(sex_results_list[["Breast"]])
+```
+An ANOVA test suggests that there is a statistically significant difference in the breast cancer death rates among different age ranges. The test also suggests there is a statistically significant difference in breast cancer death rates across the ten year timespan. 
+
+A Tukey's post-hoc test suggests the statistically significant age groups depicted above are as follows: 
+* A: 55-64 and 65-74 years old.
+* B: 75-84 years old.
+* C: Over 85 years old.
+
+The Tukey test does not suggest any significant differences in the years in pairwise comparisons. This indicates that there may be smaller variations of breast cancer rates over the ten year timespan.
+
+
+```{r}
+#| label: rate_of_prostate_cancer
+#| message: False 
+#| echo: false
+#| fig-cap: "A line plot that visualizes prostate cancer fatality rates in Multnomah County 2014-2023. There are statistically significant differences of prostate cancer mortality rate in age ranges, but not for years of data collection."
+
+prostateCancer <- filtered_cancer_rates %>%
+  filter(diseaseSite=="Prostate")%>%
+  filter(ageRanges %in% c("55-64", "65-74", "75-84", "85over"))
+
+ggplot(prostateCancer, mapping = aes(x = ddodyear, y = rate_per_100k, color = ddsex)) +
   geom_line(aes(group = interaction(ddsex, diseaseSite)))+
-  geom_errorbar(aes(ymin = rate_per_100k - rate_moe, ymax = rate_per_100k + rate_moe))+
-  facet_wrap(~diseaseSite)+
-  labs(title = "Rate of cancer deaths from 75-84 years old by sex over ten years", 
+  facet_wrap(~ageRanges)+
+  labs(title = "Rate of prostate cancer deaths over ten years", 
+       color = "Sex",
        x = "Year", 
-       y = "Rate of cancer death(per 100k)")
+       y = "Rate of cancer death(per 100k)")+
+  scale_color_manual(labels = c("M"), values = c("blue")) 
+```
+```{r}
+#| label: anova_prostate
+#| include: false
+
+summary(sex_results_list[["Prostate"]])
+#no females in this data set
+#statistical difference of cancer rates by age range
+#no statistical difference in year
 ```
 
 ```{r}
-timelineCancerOver85 <- filtered_cancer_rates %>%
-  filter(sex_age_combined == "male85over" | sex_age_combined == "female85over")
+#| label: tukey_prostate
+#| include: false
+#| echo: false
 
-ggplot(timelineCancerOver85, mapping = aes(x = ddodyear, y = rate_per_100k, color = ddsex)) +
+
+TukeyHSD(sex_results_list[["Prostate"]])
+```
+An ANOVA test suggests that there is a statistically significant difference in the prostate cancer death rates among different age ranges. The test also suggests there is no statistically significant difference in prostate cancer death rates across the ten year timespan. 
+
+A Tukey's post-hoc test suggests the statistically significant age groups depicted above are as follows: 
+- A: 55-64, 65-74, and 75-84 years old.
+- B: Over 85 years old.
+
+**Somatic cancers with high mortality rates**
+```{r}
+#| label: rate_of_lung_cancer
+#| echo: false
+#| message: False 
+#| fig-cap: "A line plot that visualizes lung cancer fatality rates in Multnomah County 2014-2023. There are statistically significant differences of lung cancer mortality rate in years and age ranges, but not for sex."
+
+lungCancer <- filtered_cancer_rates %>%
+  filter(diseaseSite=="Lung")%>%
+  filter(ageRanges %in% c("55-64", "65-74", "75-84", "85over"))
+
+ggplot(lungCancer, mapping = aes(x = ddodyear, y = rate_per_100k, color = ddsex)) +
   geom_line(aes(group = interaction(ddsex, diseaseSite)))+
-  geom_errorbar(aes(ymin = rate_per_100k - rate_moe, ymax = rate_per_100k + rate_moe))+
-  facet_wrap(~diseaseSite)+
-  labs(title = "Rate of cancer deaths from 75-84 years old by sex over ten years", 
+  facet_wrap(~ageRanges)+
+  labs(title = "Rate of lung cancer deaths over ten years", 
+       color = "Sex",
        x = "Year", 
-       y = "Rate of cancer death(per 100k)")
+       y = "Rate of cancer death(per 100k)")+
+    scale_color_manual(labels = c("F", "M"), values = c("red", "blue"))
+
 ```
 
+
+```{r}
+#| label: anova_lung
+#| message: False
+#| echo: false
+
+summary(a_sex_results_list[["Lung"]])
+#statistical difference of cancer rates by age range and year
+#no statistical difference in sex
+```
+```{r}
+#| label: tukey_lung
+#| message: False
+#| echo: false
+
+TukeyHSD(a_sex_results_list[["Lung"]])
+```
+An ANOVA test suggests that there is a statistically significant difference in the lung cancer death rates among different age ranges and years. The test also suggests there is no statistically significant difference in lung cancer death rates among sex. 
+
+A Tukey's post-hoc test suggests the statistically significant age groups depicted above are as follows: 
+- A: 55-64 years old.
+- B: 65-74 and 75-84 years old.
+- C: Over 85 years old.
+
+The statistically significantly different years can be categorized into groups as follows:
+
+|   A  |  AB  |   B  |
+|------|------|------|
+| 2014 | 2016 | 2015 |
+| 2021 | 2017 |      |
+| 2023 | 2018 |      |
+|      | 2019 |      |
+|      | 2020 |      |
+|      | 2022 |      |
+
+
+
+```{r}
+#| label: rate_of_pancreas_cancer
+#| echo: false
+#| message: False 
+#| fig-cap: "A line plot that visualizes pancreas cancer fatality rates in Multnomah County 2014-2023. There are statistically significant differences of breast cancer mortality rate in age ranges, but not for year and sex."
+
+pancreasCancer <- filtered_cancer_rates %>%
+  filter(diseaseSite=="Pancreas")%>%
+  filter(ageRanges %in% c("55-64", "65-74", "75-84", "85over"))
+
+ggplot(pancreasCancer, mapping = aes(x = ddodyear, y = rate_per_100k, color = ddsex)) +
+  geom_line(aes(group = interaction(ddsex, diseaseSite)))+
+  facet_wrap(~ageRanges)+
+  labs(title = "Rate of pancreas cancer deaths over ten years", 
+       color = "Sex",
+       x = "Year", 
+       y = "Rate of cancer death(per 100k)")+
+    scale_color_manual(labels = c("F", "M"), values = c("red", "blue"))
+
+```
+```{r}
+#| label: anova_pancreas
+#| message: False
+#| echo: false
+
+
+a_sex_results_list[["Pancreas"]]
+#statistical difference of cancer rates by age range
+#no statistical difference in year or sex
+```
+```{r}
+#| label: tukey_pancreas
+#| message: False
+#| echo: false
+
+
+TukeyHSD(a_sex_results_list[["Pancreas"]])
+```
+
+
+An ANOVA test reveals that there is no statistically significant difference between pancreas cancer rates among sex or in year.
+
+A Tukey's post-hoc test reveals that the statistically significant age groups depicted above are as follows: 
+- A: 55-64 years old.
+- B: 65-74 and 75-84 years old.
+- C: Over 85 years old.
+
+**Rates of cancer with age**
+```{r}
+#| echo: false
+
+group_cancer<-filtered_cancer_rates %>%
+  filter(diseaseSite == "Colon" | diseaseSite == "Liver")%>%
+  group_by(diseaseSite, ageRanges)%>%
+  summarize(averageRate = mean(rate_per_100k))
+  
+age_levels <- c("0-5", "6-9", "10-14", "15-17", "18-19", 
+                "20-24", "25-29", "30-34", "35-44", "45-54", 
+                "55-64", "65-74", "75-84", "85over")
+
+
+group_cancer$ageRanges <- as.numeric(factor(group_cancer$ageRanges, levels = age_levels))
+
+ggplot(group_cancer, aes(x = ageRanges, y = averageRate, color = diseaseSite)) +
+  geom_point() +
+  geom_smooth(method = lm, se = FALSE) +
+  scale_x_continuous(breaks = 1:length(age_levels), labels = age_levels) +
+  labs(x = "Age Range")
+```
+
+```{r}
+group_cancer <- na.omit(group_cancer)
+
+library(dplyr)
+
+cor_by_disease <- group_cancer %>%
+  group_by(diseaseSite) %>%
+  summarize(correlation = cor(ageRanges, averageRate, method = "pearson"))
+
+print(cor_by_disease)
+
+```
+Based on a Pearson's correlation coefficient, there is a strong correlation between average rates of cancer and age. For colon cancer, the average rate of cancer and age has a correlation of 0.86. The correltation coefficient for the average liver cancer rate and age is 0.95.
 
 
 

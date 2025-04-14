@@ -1,0 +1,14 @@
+---
+title: "Conclusion"
+format: 
+  html:
+    self-contained: true
+---
+
+In conclusion, we analyzed the top six cancers from 2014-2023 in Multnomah County: lung, pancreas, breast, prostate, colon, and liver cancer. The top three cancers among different age groups were lung and pancreas cancers, as well as breast cancer for female and prostate cancer for males.
+
+For all cancers, the rate of cancers increases as age increases. The groups at risk for all cancers are those above 55 years old, and the most at risk are those above 85 years old. Among the cancers not exclusive to sex, there was no statistically significant difference in rates of cancer by sex. For lung cancer, there were statistically significant differences in particular years, yet there was overlap among these groups. Therefore, there is little confidence that the rate of lung cancer was dependent on the year of death.
+
+There were two other prevalent cancers with mortality rates above 50 per 100,000 people in Multnomah County: colon and liver cancer. There is a strong, direct correlation between cancer rates and age. 
+
+In general, there was no statistically significant fluctuation in cancer rates by year for the cancers aforementioned. Thus, sex of the indivdual (with the exception of cancers specific to sex) and year of death have no influence on the rate of cancer, however, age is a major risk factor.

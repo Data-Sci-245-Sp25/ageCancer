@@ -9,18 +9,16 @@ website:
     style: "docked"
     contents:
       - href: titlePage.qmd #Dianara
-        text: Index
+        text: Title Page
       - href: abstract.qmd #person B
         text: Abstract
-      - href: titlePage.qmd #Dianara
-        text: Title Page
-      - href: backgroundAndAim.qmd #Dianara
+      - href: backgroundAndAim.qmd #Alaniya
         text: Background Information/Aim of Research
-      - href: methods.qmd #Dianara
+      - href: methods.qmd #Dianara and Alaniya
         text: Methods
-      - href: Results.qmd #Dianara AND Alaniya
+      - href: Results.qmd #Dianara 
         text: Results
-      - href: conclusion.qmd #Dianara AND Alaniya
+      - href: conclusion.qmd #Dianara
         text: Conslusion
       - href: sources.qmd #Dianara AND Alaniya
         text: Works Cited

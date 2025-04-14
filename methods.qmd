@@ -1,3 +1,10 @@
+---
+title: "Methods"
+format: 
+  html:
+    self-contained: true
+---
+
 **About the Data**
 
 The raw data for all deaths in Multnomah County, Portland, Oregon were accessed through the Multnomah County Health Department in collaboration with Lewis and Clark College's head of Data Initiatives, Jeremy McWilliams, and professor of Biology, Dr.Greta Binford.
@@ -16,6 +23,7 @@ To conduct representative research of cancer deaths in Multnomah County, cancer 
 
 ```{r}
 #| message: False 
+#| echo: false
 
 #installing packages
 install.packages("tidyverse") 
@@ -24,6 +32,7 @@ library(tidyverse)
 
 ```{r}
 #| message: False 
+#| echo: false
 
 #reading data
 cancerData <- read_csv("./data/ageCancer.csv")
