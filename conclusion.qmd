@@ -5,10 +5,42 @@ format:
     self-contained: true
 ---
 
-In conclusion, we analyzed the top six cancers from 2014-2023 in Multnomah County: lung, pancreas, breast, prostate, colon, and liver cancer. The top three cancers among different age groups were lung and pancreas cancers, as well as breast cancer for female and prostate cancer for males.
+## Overview
 
-For all cancers, the rate of cancers increases as age increases. The groups at risk for all cancers are those above 55 years old, and the most at risk are those above 85 years old. Among the cancers not exclusive to sex, there was no statistically significant difference in rates of cancer by sex. For lung cancer, there were statistically significant differences in particular years, yet there was overlap among these groups. Therefore, there is little confidence that the rate of lung cancer was dependent on the year of death.
+-   The top three cancers identified were lung, pancreas, and sex related cancers: breast for female and prostate for male
 
-There were two other prevalent cancers with mortality rates above 50 per 100,000 people in Multnomah County: colon and liver cancer. There is a strong, direct correlation between cancer rates and age. 
+-   The age groups at risk are those above 55 years old
 
-In general, there was no statistically significant fluctuation in cancer rates by year for the cancers aforementioned. Thus, sex of the indivdual (with the exception of cancers specific to sex) and year of death have no influence on the rate of cancer, however, age is a major risk factor.
+-   The age group most at risk are those over 85 years old
+
+-   Among somatic cancers, there is no statistical difference in sex
+
+-   All cancers showed no difference in trend among the ten year period from 2014-2023
+
+-   Other prominent cancers: colon and liver, have a strong correlation between age and mortality rate
+
+-   This information helps make informed policy
+
+---
+
+In conclusion, we analyzed the top six cancers from 2014-2023 in Multnomah County: lung, pancreas, breast, prostate, colon, and liver cancer. These cancers had a mortality rate over 50 per 100,000 people in Multnomah county.
+
+The top three cancers among different age groups were lung and pancreas cancers, as well as breast cancer for female and prostate cancer for males.
+
+For all cancers, the rate of cancer increases as age increases. The groups at risk for all cancers are those above 55 years old, and the most at risk are those above 85 years old. Among the cancers not exclusive to sex, there was no statistically significant difference in rates of cancer by sex. For lung cancer, there were statistically significant differences in particular years, yet there was overlap among these groups. Therefore, there is little confidence that the rate of lung cancer was dependent on/influenced by the year of death.
+
+The two other prevalent cancers with mortality rates above 50 per 100,000 people in Multnomah County were colon and liver cancer. There is a strong, direct correlation between cancer rates and age.
+
+In general, there was no statistically significant fluctuation in cancer rates by year for the cancers aforementioned. Thus, sex of the individual (with the exception of cancers specific to sex) and year of death have no influence on the rate of cancer, however, age is a major risk factor. Those above 85 have a higher mortality rate among all age groups, however, there lies a significant risk of cancer death for those above 55 years old.
+
+This research is pivotal to make informed decisions regarding the cancers aforementioned. Understanding how these cancers impact age groups are important for informing research and targeting specific age groups in particular cancer screenings. Understanding how age and other risk factors interact is fundamental to reducing cancer mortality rates.
+
+#### Limitations
+
+In our Applied Data Science course, our class created an extensive list categorizing cancer types from their respective ICD-10 codes. The age categorizations were also created manually. The categorizations were subject to human error; it is possible that a disease site of cancer or age range was miscategorized.
+
+#### Future Directions
+
+Comparing age alongside other comorbidities can help find common factors that increase cancer mortality rates.
+
+Using the data from other groups (race, education level, geographical location) can create a holistic view of the cancer deaths in Multnomah county, which can be used to make more direct policy initiatives.

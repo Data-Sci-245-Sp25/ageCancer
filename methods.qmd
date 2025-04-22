@@ -5,19 +5,35 @@ format:
     self-contained: true
 ---
 
+## Overview:
+
+-   Filtered raw data for cancer and identified their disease sites
+
+-   Aggregated data by age group, sex, year of death, site of cancer, and found sum of cancer death
+
+-   A rate of mortality calculated as the number of deaths per 100k residents for each year by disease site
+
+-   Cancers examined were lung, pancreas, breast, prostate, colon and liver
+
+-   Plotted the annual mortality rate by sex to determine trend in cancer rate by time and sex
+
+------------------------------------------------------------------------
+
 **About the Data**
 
 The raw data for all deaths in Multnomah County, Portland, Oregon were accessed through the Multnomah County Health Department in collaboration with Lewis and Clark College's head of Data Initiatives, Jeremy McWilliams, and professor of Biology, Dr.Greta Binford.
 
-We filtered for cancer-related primary causes of death, according to codes of  the tenth revision of the International Classification of Diseases (ICD-10). Further, we limited our data to the ten-year range of 2014-2023.
+We filtered for cancer-related primary causes of death, according to codes of the tenth revision of the International Classification of Diseases (ICD-10). Further, we limited our data to the ten-year range of 2014-2023.
 
 The relevant columns of data used were the year of death, the age of the individual with cancer, and the ICD-10 codes associated with the type of cancer.
 
-The ICD-10 codes specific to each type of cancer were generalized to the site of cancer. For example, the ICD-10 code for "malignant neoplasm of ascending colon" was generalized to "colon."
+The ICD-10 codes specific to each type of cancer were generalized to the site of cancer. For example, the ICD-10 code for "malignant neoplasm of ascending colon" was generalized to the disease site "colon." Students Sophie Homolka and Emily Strand are credited for creating a comprehensive list of these disease sites and their respective ICD-10 codes.
 
-The data was aggregated by age groups (as determined by TidyCensus), sex, year of death, and the site of cancer.
+The data was aggregated by age groups (as determined by TidyCensus), sex, year of death, the site of cancer, and added the number of cancer deaths. The number of deaths from these aggregations were used to calculate a proportion of deaths by population, using TidyCensus data.
 
-To conduct representative research of cancer deaths in Multnomah County, cancer deaths were calculated as a proportion of deaths by population, using TidyCensus data.
+The top cancers were identified as having the largest number of deaths, which were lung (2012), breast (585), pancreas (477), prostate (403), colon (265), and liver (235).
+
+The mortality rates were plotted as a function of time, for years between 2014-2023.
 
 **Raw Data Visualization**
 
@@ -36,6 +52,11 @@ library(tidyverse)
 
 #reading data
 cancerData <- read_csv("./data/ageCancer.csv")
+cancerData$ageRanges <- cancerData$ageRanges %>%
+  str_replace("^5-9$", "6-9")
+
+cancerData$ageRanges <- cancerData$ageRanges %>%
+  str_replace("^24-29$", "25-29")
 ```
 
 ```{r}
