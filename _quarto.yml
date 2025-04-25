@@ -14,8 +14,6 @@ website:
         text: Abstract
       - href: background.qmd #Alaniya
         text: Background
-      - href: aim.qmd #Alaniya
-        text: Aim of Research
       - href: methods.qmd #Dianara and Alaniya
         text: Methods
       - href: Results.qmd #Dianara 
