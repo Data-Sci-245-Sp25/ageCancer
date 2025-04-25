@@ -8,9 +8,3 @@ format:
 Cancer remains a leading cause of mortality in the United States, with significant variation in incidence and death rates across regions, age groups, and cancer types. Multnomah County, which includes Portland, Oregon, has experienced notable cancer-related mortality over the past decade. Cancer’s predominance in older age groups aligns with evolutionary theories positing that oncogenic processes are shaped by weakening selection pressures after reproductive maturity(1). The "post-reproductive genotype" hypothesis suggests that natural selection invests less in somatic maintenance and anticancer mechanisms once reproduction concludes, as mutations impacting fitness post-reproduction face minimal evolutionary constraint(1).The observed rise in cancer mortality with age in Multnomah County particularly among those over 55 mirrors broader evolutionary patterns.
 
 Understanding the demographic and temporal patterns of cancer deaths is crucial for public health planning and targeted interventions.To address this, researchers accessed comprehensive mortality data from the Multnomah County Health Department, in collaboration with Lewis and Clark College. The analysis focused on cancer as the primary cause of death, using ICD-10 codes to classify cancer types and aggregating data from 2014 to 2023. The study examined age, sex, year of death, and cancer site, with population data from TidyCensus enabling calculation of age-specific cancer mortality rates. By identifying trends and risk factors in the county’s cancer deaths, the research aims to inform local health strategies and resource allocation.
-
-Sources:
-
-<https://www.nature.com/articles/s41416-019-0721-1>
-
-<https://pmc.ncbi.nlm.nih.gov/articles/PMC6917346/>
