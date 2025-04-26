@@ -8,7 +8,7 @@ website:
   sidebar:
     style: "docked"
     contents:
-      - href: titlePage.qmd #Dianara
+      - href: index.qmd #Dianara
         text: Title Page
       - href: abstract.qmd #person B
         text: Abstract
