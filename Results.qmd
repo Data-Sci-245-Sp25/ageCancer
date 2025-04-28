@@ -357,6 +357,16 @@ ggplot(pancreasCancer, mapping = aes(x = ddodyear, y = rate_per_100k, color = dd
     scale_color_manual(labels = c("F", "M"), values = c("red", "blue"))
 
 ```
+An ANOVA test reveals that there is no statistically significant difference between pancreas cancer rates among sex or in year.
+
+A Tukey's post-hoc test reveals that the statistically significant age groups depicted above are as follows:
+
+-   A: 55-64 years old.
+
+-   B: 65-74 and 75-84 years old.
+
+-   C: Over 85 years old.
+
 ```{r}
 #| label: rate_of_breast_cancer
 #| message: False 
@@ -473,15 +483,6 @@ a_sex_results_list[["Pancreas"]]
 TukeyHSD(a_sex_results_list[["Pancreas"]])
 ```
 
-An ANOVA test reveals that there is no statistically significant difference between pancreas cancer rates among sex or in year.
-
-A Tukey's post-hoc test reveals that the statistically significant age groups depicted above are as follows:
-
--   A: 55-64 years old.
-
--   B: 65-74 and 75-84 years old.
-
--   C: Over 85 years old.
 
 **Rates of cancer with age**
 
